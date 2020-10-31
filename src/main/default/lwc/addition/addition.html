@@ -1,0 +1,34 @@
+<template>
+  <lightning-card title="Add 2 Numbers" icon-name="custom:custom14">
+    <div class="slds-m-around_medium">
+      <lightning-input
+        type="number"
+        name="number1"
+        label="Number 1"
+        value={number1}
+        onchange={inputChange}
+      ></lightning-input>
+      <lightning-input
+        type="number"
+        name="number2"
+        label="Number 2"
+        value={number2}
+        onchange={inputChange}
+      ></lightning-input>
+      <lightning-input
+        type="number"
+        label="Sum"
+        disabled
+        value={sum}
+      ></lightning-input>
+    </div>
+    <div class="slds-align_absolute-center">
+      <lightning-button
+        variant="brand-outline"
+        label="Clear"
+        onclick={resetNumbers}
+        class="slds-m-left_small"
+      ></lightning-button>
+    </div>
+  </lightning-card>
+</template>
