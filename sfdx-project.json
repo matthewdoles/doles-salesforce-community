@@ -1,7 +1,8 @@
 {
   "packageDirectories": [
     {
-      "path": "src"
+      "path": "src",
+      "default": true
     }
   ],
   "namespace": "",
