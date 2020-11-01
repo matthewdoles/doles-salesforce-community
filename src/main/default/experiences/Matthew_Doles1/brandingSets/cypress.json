@@ -4,7 +4,7 @@
   "label": "Cypress",
   "type": "brandingSet",
   "values": {
-    "ActionColor": "rgb(36, 119, 204)",
+    "ActionColor": "rgb(15, 25, 34)",
     "BorderColor": "rgb(212, 212, 212)",
     "CardBackgroundColor": "rgba(255, 255, 255, 0)",
     "CompanyLogo": "",
@@ -19,9 +19,9 @@
     "PrimaryFont": "Roboto",
     "TextColor": "rgba(0, 0, 0, 0.8)",
     "TextTransformStyle": "none",
-    "_ActionColorDarker": "rgb(28, 94, 161)",
-    "_ActionColorTrans": "rgba(36, 119, 204, 0.9)",
-    "_HoverColor": "rgba(36, 119, 204, 0.05)",
+    "_ActionColorDarker": "#000000",
+    "_ActionColorTrans": "rgba(15, 25, 34, 0.9)",
+    "_HoverColor": "rgba(15, 25, 34, 0.05)",
     "_LinkColorDarker": "rgb(0, 73, 137)",
     "_OverlayTextColorShadow": "#000000"
   }

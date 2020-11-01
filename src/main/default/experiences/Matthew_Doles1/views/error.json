@@ -13,7 +13,7 @@
       "components": [
         {
           "componentAttributes": {
-            "richTextValue": "<div style='text-align: center;'>Invalid Page</div>"
+            "richTextValue": "<h3 style=\"text-align: center;\"><br></h3><h3 style=\"text-align: center;\"><br></h3><h3 style=\"text-align: center;\">Invalid Page</h3><h3 style=\"text-align: center;\"><br></h3><h3 style=\"text-align: center;\"><br></h3>"
           },
           "componentName": "forceCommunity:richTextInline",
           "id": "dc6ec967-2bd5-4827-82a1-8cafa4455c2b",
