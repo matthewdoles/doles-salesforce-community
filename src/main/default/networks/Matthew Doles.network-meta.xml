@@ -30,7 +30,7 @@
   >unfiled$public/CommunityForgotPasswordEmailTemplate</forgotPasswordTemplate>
     <gatherCustomerSentimentData>false</gatherCustomerSentimentData>
     <networkMemberGroups>
-        <profile>admin</profile>
+        <profile>Admin</profile>
     </networkMemberGroups>
     <networkPageOverrides>
         <changePasswordPageOverrideSetting
@@ -51,6 +51,7 @@
         <defaultTab>home</defaultTab>
         <standardTab>Chatter</standardTab>
     </tabs>
+    <urlPathPrefix>matthew</urlPathPrefix>
     <welcomeTemplate
   >unfiled$public/CommunityWelcomeEmailTemplate</welcomeTemplate>
 </Network>

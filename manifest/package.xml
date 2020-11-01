@@ -8,7 +8,12 @@
         <members>Matthew_Doles1</members>
         <name>ExperienceBundle</name>
     </types>
-     <types>
+    <types>
+        <members>Default_Navigation</members>
+        <members>Default_User_Profile_Menu</members>
+        <name>NavigationMenu</name>
+    </types>
+    <types>
         <members>Matthew Doles</members>
         <name>Network</name>
     </types>

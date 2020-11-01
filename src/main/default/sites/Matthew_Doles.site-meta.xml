@@ -28,4 +28,5 @@
   >dolesmatthew@salesforce.com</siteGuestRecordDefaultOwner>
     <siteType>ChatterNetwork</siteType>
     <subdomain>matthew-doles-developer-edition</subdomain>
+    <urlPathPrefix>matthew</urlPathPrefix>
 </CustomSite>
