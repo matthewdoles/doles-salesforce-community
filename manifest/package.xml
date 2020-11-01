@@ -9,6 +9,10 @@
         <name>ExperienceBundle</name>
     </types>
     <types>
+        <members>communityFooter</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <types>
         <members>Default_Navigation</members>
         <members>Default_User_Profile_Menu</members>
         <name>NavigationMenu</name>
@@ -16,6 +20,10 @@
     <types>
         <members>Matthew Doles</members>
         <name>Network</name>
+    </types>
+     <types>
+        <members>FooterImages</members>
+        <name>StaticResource</name>
     </types>
     <version>49.0</version>
 </Package>

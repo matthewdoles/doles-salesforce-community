@@ -486,6 +486,15 @@
           "type": "region"
         },
         {
+          "components": [
+            {
+              "componentAttributes": {},
+              "componentName": "c:communityFooter",
+              "id": "2e82f74b-f1e7-49c8-8291-a1e05995fd94",
+              "renditionMap": {},
+              "type": "component"
+            }
+          ],
           "id": "22928c5d-53a3-4930-b772-0e84aea3d132",
           "regionName": "themeFooter",
           "type": "region"
