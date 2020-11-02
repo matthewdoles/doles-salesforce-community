@@ -8,6 +8,29 @@
       "components": [
         {
           "componentAttributes": {
+            "bannerBackgroundColor": "",
+            "bannerPosition": "top",
+            "bannerSizePercent": 35,
+            "borderRadius": 50,
+            "haveBanner": false,
+            "iconBackgroundColor": "rgb(255,255,255)",
+            "iconSize": "medium",
+            "noImageColor": "rgb(212, 212, 212)",
+            "overlay": "rgba(0, 0, 0, 0.4)",
+            "templateType": "full",
+            "tileMenuEditor": "Default_Navigation",
+            "titleColor": "",
+            "titleFontSize": "large",
+            "titleHorizontalAlign": "center"
+          },
+          "componentName": "community_navigation:tileMenu",
+          "id": "92d41c4d-f235-4a3c-b1b7-83267868ffed",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
+        {
+          "componentAttributes": {
             "tabsetConfig": {
               "UUID": "9cc9ea04-a1ed-4c9a-a0d9-74bf5a1f6398",
               "activeTab": "",

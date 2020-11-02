@@ -43,7 +43,7 @@
         "isHeroUnderHeader": false,
         "isPageWidthFixed": true,
         "showHeader": true,
-        "showHero": true
+        "showHero": false
       },
       "componentName": "siteforce:themeLayoutStarter",
       "id": "0d085514-1cdc-429a-af71-18a55a3097aa",
@@ -170,13 +170,13 @@
           "components": [
             {
               "componentAttributes": {
-                "bgImage": "background: rgb(0,0,0) url(/sfsites/assets/themes/cypress-background.jpg) top center /cover",
-                "bgOverlayColor": "rgba(0, 0, 0, 0.35)",
+                "bgImage": "background: rgb(0,0,0) url(/sfsites/c/file-asset/projects?v=1) top center /cover",
+                "bgOverlayColor": "rgba(0, 0, 0, 0.65)",
                 "captionText": "Limited time offer",
                 "captionTextColor": "rgb(255, 255, 255)",
                 "captionTextShadowColor": "rgba(0, 0, 0, 0.5)",
                 "contentAlignment": "center",
-                "contentWidth": 25,
+                "contentWidth": 50,
                 "ctaBtnOneBgColor": "",
                 "ctaBtnOneBgHoverColor": "",
                 "ctaBtnOneBorderColor": "rgba(0, 0, 0, 0)",
@@ -197,15 +197,15 @@
                 "ctaShowBtnOne": false,
                 "ctaShowBtnTwo": false,
                 "fixedHeroWidth": true,
-                "heroHeight": 0,
-                "heroWidth": 640,
+                "heroHeight": 110,
+                "heroWidth": 1336,
                 "showCaption": false,
                 "showSubtitle": false,
-                "showTitle": false,
+                "showTitle": true,
                 "subtitleText": "Subtitle Content",
                 "subtitleTextColor": "rgb(255, 255, 255)",
                 "subtitleTextShadowColor": "rgba(0, 0, 0, 0.5)",
-                "titleText": "Collect bonus rewards.",
+                "titleText": "Projects",
                 "titleTextColor": "rgb(255, 255, 255)",
                 "titleTextShadowColor": "rgba(0, 0, 0, 0.5)",
                 "type": "callToAction"

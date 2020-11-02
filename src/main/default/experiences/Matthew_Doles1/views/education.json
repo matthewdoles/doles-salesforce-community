@@ -1,0 +1,44 @@
+{
+  "appPageId": "bc7511ba-0fce-40eb-b7e3-1ebb0d62c409",
+  "componentName": "siteforce:sldsOneColLayout",
+  "id": "c78e585e-71bd-4dc2-9b1f-120a4ab42ca5",
+  "label": "Education",
+  "regions": [
+    {
+      "id": "1b5a85aa-90bc-4dd9-8830-73d95cf77c2a",
+      "regionName": "header",
+      "type": "region"
+    },
+    {
+      "id": "a3d1dbaa-83ab-46ca-93b8-657037257bba",
+      "regionName": "content",
+      "type": "region"
+    },
+    {
+      "id": "7f333362-9e46-4260-8e1e-defc487d90b2",
+      "regionName": "footer",
+      "type": "region"
+    },
+    {
+      "components": [
+        {
+          "componentAttributes": {
+            "description": "",
+            "metaTags": "",
+            "title": "Education"
+          },
+          "componentName": "forceCommunity:seoAssistant",
+          "id": "a41ec359-6795-436c-bc1d-12d8684a3ca2",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
+      "id": "538e06a4-1462-4356-91f8-db0c3dec1d67",
+      "regionName": "sfdcHiddenRegion",
+      "type": "region"
+    }
+  ],
+  "themeLayoutType": "Inner",
+  "type": "view",
+  "viewType": "custom-education"
+}
