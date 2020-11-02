@@ -9,7 +9,7 @@
             <tileImage>experience</tileImage>
         </menuItemBranding>
         <position>1</position>
-        <publiclyAvailable>false</publiclyAvailable>
+        <publiclyAvailable>true</publiclyAvailable>
         <target>/experience</target>
         <type>InternalLink</type>
     </navigationMenuItem>
@@ -19,7 +19,7 @@
             <tileImage>salesforce_logo1</tileImage>
         </menuItemBranding>
         <position>2</position>
-        <publiclyAvailable>false</publiclyAvailable>
+        <publiclyAvailable>true</publiclyAvailable>
         <target>/salesforce</target>
         <type>InternalLink</type>
     </navigationMenuItem>
@@ -29,7 +29,7 @@
             <tileImage>projects</tileImage>
         </menuItemBranding>
         <position>3</position>
-        <publiclyAvailable>false</publiclyAvailable>
+        <publiclyAvailable>true</publiclyAvailable>
         <target>/projects</target>
         <type>InternalLink</type>
     </navigationMenuItem>
@@ -39,7 +39,7 @@
             <tileImage>usfsm</tileImage>
         </menuItemBranding>
         <position>4</position>
-        <publiclyAvailable>false</publiclyAvailable>
+        <publiclyAvailable>true</publiclyAvailable>
         <target>/education</target>
         <type>InternalLink</type>
     </navigationMenuItem>

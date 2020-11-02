@@ -5,8 +5,16 @@
         <members>floral</members>
         <members>projects</members>
         <members>salesforce_logo1</members>
-        <members>usfmsm</members>
+        <members>usfsm</members>
         <name>ContentAsset</name>
+    </types>
+    <types>
+        <members>Personal_Email</members>
+        <members>Personal_Phone</members>
+        <members>Profile_Github</members>
+        <members>Profile_LinkedIN</members>
+        <members>Profile_Trailhead</members>
+        <name>CustomLabel</name>
     </types>
     <types>
         <members>Matthew_Doles</members>
@@ -28,6 +36,10 @@
     <types>
         <members>Matthew Doles</members>
         <name>Network</name>
+    </types>
+    <types>
+        <members>Matthew Doles Profile</members>
+        <name>Profile</name>
     </types>
      <types>
         <members>FooterImages</members>
