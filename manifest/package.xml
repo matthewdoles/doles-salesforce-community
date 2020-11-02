@@ -5,6 +5,7 @@
         <members>floral</members>
         <members>projects</members>
         <members>salesforce_logo1</members>
+        <members>salesforce</members>
         <members>usfsm</members>
         <name>ContentAsset</name>
     </types>
