@@ -10,18 +10,6 @@
       "type": "region"
     },
     {
-      "components": [
-        {
-          "componentAttributes": {
-            "actionApiName": "{!actionApiName}"
-          },
-          "componentName": "forceCommunity:createRecordForm",
-          "id": "93eeed29-a3a8-4cb7-b97b-2e69453dbfe0",
-          "renderPriority": "NEUTRAL",
-          "renditionMap": {},
-          "type": "component"
-        }
-      ],
       "id": "e853aae4-ed81-478b-8e6d-73c9b54ca911",
       "regionName": "content",
       "type": "region"

@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
+        <members>experience</members>
+        <members>floral</members>
+        <members>projects</members>
+        <members>salesforce_logo1</members>
+        <members>usfmsm</members>
+        <name>ContentAsset</name>
+    </types>
+    <types>
         <members>Matthew_Doles</members>
         <name>CustomSite</name>
     </types>
     <types>
         <members>Matthew_Doles1</members>
         <name>ExperienceBundle</name>
+    </types>
+    <types>
+        <members>communityFooter</members>
+        <name>LightningComponentBundle</name>
     </types>
     <types>
         <members>Default_Navigation</members>
@@ -16,6 +28,10 @@
     <types>
         <members>Matthew Doles</members>
         <name>Network</name>
+    </types>
+     <types>
+        <members>FooterImages</members>
+        <name>StaticResource</name>
     </types>
     <version>49.0</version>
 </Package>

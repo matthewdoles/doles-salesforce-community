@@ -1,0 +1,44 @@
+{
+  "appPageId": "bc7511ba-0fce-40eb-b7e3-1ebb0d62c409",
+  "componentName": "siteforce:sldsOneColLayout",
+  "id": "cad71f05-df7d-4593-abaf-c96ea50d0a2b",
+  "label": "Projects",
+  "regions": [
+    {
+      "id": "5e78df55-1407-494c-8bd8-3cc9d6daea04",
+      "regionName": "header",
+      "type": "region"
+    },
+    {
+      "id": "56e5c072-d1a9-4028-a18a-ebb6a99a8f99",
+      "regionName": "content",
+      "type": "region"
+    },
+    {
+      "id": "c7e25104-e8e0-446d-b1bc-153f62fa1912",
+      "regionName": "footer",
+      "type": "region"
+    },
+    {
+      "components": [
+        {
+          "componentAttributes": {
+            "description": "",
+            "metaTags": "",
+            "title": "Projects"
+          },
+          "componentName": "forceCommunity:seoAssistant",
+          "id": "f257ac36-e563-4dd4-a572-5b6c09e0f796",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
+      "id": "ee26d1d0-13d2-4544-9c1b-c52a0d19084f",
+      "regionName": "sfdcHiddenRegion",
+      "type": "region"
+    }
+  ],
+  "themeLayoutType": "Inner",
+  "type": "view",
+  "viewType": "custom-projects"
+}

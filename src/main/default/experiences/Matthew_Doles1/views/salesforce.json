@@ -1,0 +1,44 @@
+{
+  "appPageId": "bc7511ba-0fce-40eb-b7e3-1ebb0d62c409",
+  "componentName": "siteforce:sldsOneColLayout",
+  "id": "cd4829cf-beb5-4f32-97b6-50376d6ab3c5",
+  "label": "Salesforce",
+  "regions": [
+    {
+      "id": "e54128cc-8a0c-4fde-9e24-e0e447ba8099",
+      "regionName": "header",
+      "type": "region"
+    },
+    {
+      "id": "f29ef067-f56d-4ccd-bc9a-c2081b631890",
+      "regionName": "content",
+      "type": "region"
+    },
+    {
+      "id": "a95c32eb-d10b-4fbb-bb32-1a4ca871e8af",
+      "regionName": "footer",
+      "type": "region"
+    },
+    {
+      "components": [
+        {
+          "componentAttributes": {
+            "description": "",
+            "metaTags": "",
+            "title": "Salesforce"
+          },
+          "componentName": "forceCommunity:seoAssistant",
+          "id": "c7603f00-b9b6-44ac-9ddb-93f438eb8933",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
+      "id": "4048d825-9222-4be7-818f-0257b2cf6474",
+      "regionName": "sfdcHiddenRegion",
+      "type": "region"
+    }
+  ],
+  "themeLayoutType": "Inner",
+  "type": "view",
+  "viewType": "custom-salesforce"
+}
