@@ -6,6 +6,7 @@
         <members>projects</members>
         <members>salesforce_logo1</members>
         <members>salesforce</members>
+        <members>usf</members>
         <members>usfsm</members>
         <name>ContentAsset</name>
     </types>
@@ -15,6 +16,11 @@
         <members>Profile_Github</members>
         <members>Profile_LinkedIN</members>
         <members>Profile_Trailhead</members>
+        <members>Undergrad_Body_1</members>
+        <members>Undergrad_Body_2</members>
+        <members>Undergrad_Honors</members>
+        <members>Undergrad_Major</members>
+        <members>Undergrad_School</members>
         <name>CustomLabel</name>
     </types>
     <types>
@@ -27,6 +33,7 @@
     </types>
     <types>
         <members>communityFooter</members>
+        <members>myEducation</members>
         <name>LightningComponentBundle</name>
     </types>
     <types>

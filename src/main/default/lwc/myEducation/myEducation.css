@@ -1,0 +1,22 @@
+.header {
+  display: inline-flex;
+}
+
+.header-img {
+  max-width: 150px;
+}
+
+.header-info {
+  display: block;
+}
+
+@media all and (max-width: 750px) {
+  .header {
+    display: block;
+  }
+  .header-img-container {
+    text-align: center;
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+}

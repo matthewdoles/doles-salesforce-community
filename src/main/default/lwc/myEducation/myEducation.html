@@ -1,0 +1,22 @@
+<template>
+  <div class="slds-m-around_large">
+    <div class="slds-p-bottom_large header">
+      <div class="slds-m-right_medium header-img-container">
+        <img src={usf} class="header-img" />
+      </div>
+      <div class="header-info">
+        <h1 class="slds-text-heading_large slds-p-bottom_large">
+          {labels.school}
+        </h1>
+        <h3 class="slds-text-heading_medium">{labels.major}</h3>
+        <h3 class="slds-text-heading_medium">{labels.honors}</h3>
+      </div>
+    </div>
+    <lightning-formatted-rich-text
+      value={labels.body_1}
+    ></lightning-formatted-rich-text>
+    <lightning-formatted-rich-text
+      value={labels.body_2}
+    ></lightning-formatted-rich-text>
+  </div>
+</template>
