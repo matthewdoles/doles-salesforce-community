@@ -1161,7 +1161,7 @@
                 "subtitleText": "Subtitle Content",
                 "subtitleTextColor": "rgb(255, 255, 255)",
                 "subtitleTextShadowColor": "rgba(0, 0, 0, 0.5)",
-                "titleText": "Salesforce",
+                "titleText": "Salesforce Journey",
                 "titleTextColor": "rgb(255, 255, 255)",
                 "titleTextShadowColor": "rgba(0, 0, 0, 0.5)",
                 "type": "callToAction"

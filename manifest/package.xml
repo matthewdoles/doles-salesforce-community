@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>experience</members>
-        <members>floral</members>
-        <members>projects</members>
-        <members>salesforce_logo1</members>
-        <members>salesforce</members>
-        <members>usf</members>
-        <members>usfsm</members>
+        <members>*</members>
         <name>ContentAsset</name>
     </types>
     <types>
@@ -46,10 +40,6 @@
         <name>Network</name>
     </types>
     <types>
-        <members>Matthew Doles Profile</members>
-        <name>Profile</name>
-    </types>
-     <types>
         <members>FooterImages</members>
         <name>StaticResource</name>
     </types>

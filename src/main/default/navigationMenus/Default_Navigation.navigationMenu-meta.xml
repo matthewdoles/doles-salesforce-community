@@ -14,7 +14,7 @@
         <type>InternalLink</type>
     </navigationMenuItem>
     <navigationMenuItem>
-        <label>Salesforce</label>
+        <label>Salesforce Journey</label>
         <menuItemBranding>
             <tileImage>salesforce_logo1</tileImage>
         </menuItemBranding>
