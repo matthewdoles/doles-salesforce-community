@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Personal_Email</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Personal_Email</shortDescription>
+        <value>dolesmatthew@gmail.com</value>
+    </labels>
+    <labels>
+        <fullName>Personal_Phone</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Personal_Phone</shortDescription>
+        <value>317-560-1964</value>
+    </labels>
+    <labels>
+        <fullName>Profile_Github</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Profile_Github</shortDescription>
+        <value>Github Profile</value>
+    </labels>
+    <labels>
+        <fullName>Profile_LinkedIN</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Profile_LinkedIN</shortDescription>
+        <value>LinkedIN Profile</value>
+    </labels>
+    <labels>
+        <fullName>Profile_Trailhead</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Profile_Trailhead</shortDescription>
+        <value>Trailhead Profile</value>
+    </labels>
+    <labels>
+        <fullName>Undergrad_Body_1</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Undergrad_Body_1</shortDescription>
+        <value
+    >&lt;p class=&quot;slds-p-bottom_large&quot; style=&quot;font-size: 16px&quot;&gt;
+      I initially started my undergraduate education at
+      &lt;a href=&quot;https://franklincollege.edu/&quot;&gt;Franklin College&lt;/a&gt; in Fall of
+      2012 as a Computer Science major. Franklin College is located in Indiana,
+      and Franklin itself is the small town just South of Indianapolis I grew up
+      in. However, after two years I transferred to the
+      &lt;a href=&quot;http://usfsm.edu/&quot;&gt;University of South Florida Sarasota-Manatee&lt;/a&gt;
+      in Fall of 2015 in order to be closer to my parents that had moved to the
+      area themselves a year prior. Unfortunately, they did not have a Computer
+      Science major. However, the program still offered me the education and
+      tools needed to pursue a career path in the general IT field.
+ &lt;/p&gt;</value>
+    </labels>
+    <labels>
+        <fullName>Undergrad_Body_2</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Undergrad_Body_2</shortDescription>
+        <value
+    >&lt;p class=&quot;slds-p-bottom_large&quot; style=&quot;font-size: 16px&quot;&gt;
+      The only downside is I wanted to pursue a career path in development or
+      engineering. Having graduated in Spring of 2018, I spent the majority of
+      that summer looking for a job, and when I wasn&apos;t doing that I was
+      learning, coding, and filling in the missing gaps so I could land a job as
+      a developer. Luckily when it rains it pours, and during a one week span in
+      late August I was offered three jobs. One as a PHP developer, the second
+      as an intern to full-time C#/.NET developer, and the final one being the
+      Application Support Analyst with J&amp;amp;J which is the role I presently
+      hold. While this current position is not in development, I could not pass
+      up on the chance to work with such a great company and potentially work my
+      way towards a developer role.
+&lt;/p&gt;</value>
+    </labels>
+    <labels>
+        <fullName>Undergrad_Honors</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Undergrad_Honors</shortDescription>
+        <value>Honors: 3.8 GPA - Magna Cum Laude</value>
+    </labels>
+    <labels>
+        <fullName>Undergrad_Major</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Undergrad_Major</shortDescription>
+        <value
+    >BS, Information Technology, Applications and Web Development Concentration</value>
+    </labels>
+    <labels>
+        <fullName>Undergrad_School</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Undergrad_School</shortDescription>
+        <value>University of South Florida Sarasota-Manatee</value>
+    </labels>
+</CustomLabels>

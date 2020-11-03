@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>experience</members>
-        <members>floral</members>
-        <members>projects</members>
-        <members>salesforce_logo1</members>
-        <members>usfmsm</members>
+        <members>*</members>
         <name>ContentAsset</name>
+    </types>
+    <types>
+        <members>Personal_Email</members>
+        <members>Personal_Phone</members>
+        <members>Profile_Github</members>
+        <members>Profile_LinkedIN</members>
+        <members>Profile_Trailhead</members>
+        <members>Undergrad_Body_1</members>
+        <members>Undergrad_Body_2</members>
+        <members>Undergrad_Honors</members>
+        <members>Undergrad_Major</members>
+        <members>Undergrad_School</members>
+        <name>CustomLabel</name>
     </types>
     <types>
         <members>Matthew_Doles</members>
@@ -18,6 +27,7 @@
     </types>
     <types>
         <members>communityFooter</members>
+        <members>myEducation</members>
         <name>LightningComponentBundle</name>
     </types>
     <types>
@@ -29,7 +39,7 @@
         <members>Matthew Doles</members>
         <name>Network</name>
     </types>
-     <types>
+    <types>
         <members>FooterImages</members>
         <name>StaticResource</name>
     </types>

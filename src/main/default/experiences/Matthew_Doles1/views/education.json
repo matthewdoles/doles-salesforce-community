@@ -10,6 +10,16 @@
       "type": "region"
     },
     {
+      "components": [
+        {
+          "componentAttributes": {},
+          "componentName": "c:myEducation",
+          "id": "fdb0f01e-ce84-4b35-9fae-f2eb4a1da4c8",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
       "id": "a3d1dbaa-83ab-46ca-93b8-657037257bba",
       "regionName": "content",
       "type": "region"
@@ -38,7 +48,7 @@
       "type": "region"
     }
   ],
-  "themeLayoutType": "Inner",
+  "themeLayoutType": "IdkugyHs2CsbkMZBVsjSZyCVblRXKY",
   "type": "view",
   "viewType": "custom-education"
 }

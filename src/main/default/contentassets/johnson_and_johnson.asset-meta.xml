@@ -2,8 +2,7 @@
 <ContentAsset xmlns="http://soap.sforce.com/2006/04/metadata">
     <isVisibleByExternalUsers>true</isVisibleByExternalUsers>
     <language>en_US</language>
-    <masterLabel>usfsm</masterLabel>
-    <originNetwork>Matthew Doles</originNetwork>
+    <masterLabel>johnson_and_johnson</masterLabel>
     <relationships>
         <network>
             <access>VIEWER</access>
@@ -18,7 +17,7 @@
     <versions>
         <version>
             <number>1</number>
-            <pathOnClient>usfsm.jpg</pathOnClient>
+            <pathOnClient>johnson-and-johnson.jpg</pathOnClient>
         </version>
     </versions>
 </ContentAsset>
