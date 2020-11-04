@@ -33,6 +33,7 @@
     <types>
         <members>Default_Navigation</members>
         <members>Default_User_Profile_Menu</members>
+        <members>Project_Navigation_Menu</members>
         <name>NavigationMenu</name>
     </types>
     <types>
@@ -41,6 +42,7 @@
     </types>
     <types>
         <members>FooterImages</members>
+        <members>HeaderImages</members>
         <name>StaticResource</name>
     </types>
     <version>49.0</version>

@@ -1,0 +1,56 @@
+{
+  "appPageId": "bc7511ba-0fce-40eb-b7e3-1ebb0d62c409",
+  "componentName": "siteforce:sldsOneColLayout",
+  "id": "626f1299-e629-47c6-b84a-2f4ef87f548f",
+  "label": "Hopped Up Network",
+  "regions": [
+    {
+      "id": "11e3fe2c-ffb7-4a42-805b-b1981a27258b",
+      "regionName": "header",
+      "type": "region"
+    },
+    {
+      "components": [
+        {
+          "componentAttributes": {
+            "richTextValue": "<p><span style=\"font-size: 16px;\">I started developing the website for the Hopped Up Network in late 2017 as my senior project for USFSM. The original co-founder of the network, Mathew Muncy, was a mutual friend of mine through my brother. Muncy is a journalist, podcaster, and content creator who has worked in the craft beer industry much of his career. Muncy had built a small following for his podcast,&nbsp;</span><a href=\"http://barrelchatpodcast.com/\" target=\"null\" style=\"font-size: 16px;\"><b>Barrel Chat</b></a><span style=\"font-size: 16px;\">, and wanted to build a network platform for similar beer-centric podcasts that would offer cross-promotion and build a community of like-minded beer lovers.</span></p><p><br></p><p><span style=\"font-size: 16px;\">At the time, Muncy was using WordPress to host all the network's podcasts. While it got the job, Muncy was not satisfied with its point and click WYSIWYG features. If the platform were to grow, he needed a more polished product that could also scale with growth. With the business goal and needs established, I began developing the website from scratch using HTML, CSS, and PHP. It was my first major project that I developed from scratch, and I really had no sense of web design concepts compared to what I know now.</span></p><p><br></p><p><span style=\"font-size: 16px;\">The overall design of the website is pretty straightforward. A home page that displays the 10 most recent episode across allocated podcasts. An about us page that explores the network's beginning, purpose, founders, and instructions on how to join. A podcasts page which listed all the podcasts on the network available for listen. Additionally, every show has its own page that contains a feed of their episodes available for listen, and an audio player to listen directly on the website. Finally, there was a contact page which was a simple form anyone could fill out that would send a message to the network's email address. The only other major feature was the search functionality. Located in the upper right hand corner is a search bar. Typing in any keywords will look for any matching phrases within an episode's description or title and highlight them with bold font.</span></p><p><br></p><p><span style=\"font-size: 16px;\">This project had a couple major barriers I had to climb. The first one was setting up a MySQL database to host all the podcast information. The tricky part here was that we did not want to host the audio files on our website as that can get expensive rather quickly. Thus, I had to create a Cron job that would go through each individual podcast RSS feed, insert any new episodes, and save the url address where the audio file was being hosted. This way, all I have to do is dynamically assign the URL address to the audio player. While in hindsight, this would now be a rather simple ask for me. The learning curve in junction with PHP being so new to me is what made it difficult. The second major challenge presented to me was making the website web responsive and intuitive on mobile phones. Muncy had noticed thanks to Google Analytics that over 50% of the site's traffic was from mobile users. Thus, the website needed to render in a mobile friendly format. I accomplished this through CSS media queries. Although it was still the same website, the whole venture felt like an entirely new project, and I'm thankful as it forced me to become familiar with CSS and web responsiveness concepts. I have even made this very website as mobile friendly as possible thanks to CSS media queries.</span></p><p><br></p><p><span style=\"font-size: 16px;\">Muncy and his partner, Dustin Woods, would go on to sell Hopped Up Network, and continue focusing on their own podcast:&nbsp;</span><a href=\"http://barrelchatpodcast.com/\" target=\"null\" style=\"font-size: 16px;\"><b>Barrel Chat</b></a><span style=\"font-size: 16px;\">. Although Hopped Up Network is still active, I eventually rolled off the project myself to focus on my own search for a job. The website design is still the same, but I respectfully have not made the code available for public viewing.</span></p><p><br></p><p><span style=\"font-size: 16px;\">Website:&nbsp;</span><a href=\"http://hoppedupnetwork.com/\" target=\"null\" style=\"font-size: 16px;\"><b>http://hoppedupnetwork.com/</b></a></p>"
+          },
+          "componentName": "forceCommunity:richTextInline",
+          "id": "49e2f563-eb07-406b-bb18-57db1f65fb2f",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
+      "id": "b7516ebd-70bc-4d3c-8b5b-69df0be20c13",
+      "regionName": "content",
+      "type": "region"
+    },
+    {
+      "id": "d15fc9b0-5963-4b64-8da7-d8e9efa5f252",
+      "regionName": "footer",
+      "type": "region"
+    },
+    {
+      "components": [
+        {
+          "componentAttributes": {
+            "description": "",
+            "metaTags": "",
+            "title": "Hopped Up Network"
+          },
+          "componentName": "forceCommunity:seoAssistant",
+          "id": "f5e39a71-59e4-47a3-a94f-95667af06653",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
+      "id": "a453683b-6959-489b-a0cb-f6ac12d55e72",
+      "regionName": "sfdcHiddenRegion",
+      "type": "region"
+    }
+  ],
+  "themeLayoutType": "Inner",
+  "type": "view",
+  "viewType": "custom-hopped-up-network"
+}

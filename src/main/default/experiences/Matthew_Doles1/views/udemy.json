@@ -1,0 +1,44 @@
+{
+  "appPageId": "bc7511ba-0fce-40eb-b7e3-1ebb0d62c409",
+  "componentName": "siteforce:sldsOneColLayout",
+  "id": "9e9a7676-5582-40a1-a734-a55e18898786",
+  "label": "Udemy",
+  "regions": [
+    {
+      "id": "b390bc37-1e67-4013-84a7-b04b82e3d34a",
+      "regionName": "header",
+      "type": "region"
+    },
+    {
+      "id": "5ff34504-1988-4790-8510-5f10f79b9b5e",
+      "regionName": "content",
+      "type": "region"
+    },
+    {
+      "id": "f65f4153-ac18-404d-8324-e0bc2c6383c2",
+      "regionName": "footer",
+      "type": "region"
+    },
+    {
+      "components": [
+        {
+          "componentAttributes": {
+            "description": "",
+            "metaTags": "",
+            "title": "Udemy"
+          },
+          "componentName": "forceCommunity:seoAssistant",
+          "id": "859573ff-5bde-4756-96b0-6b927cba0a17",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
+      "id": "b3791208-1679-4650-820b-a45506b28963",
+      "regionName": "sfdcHiddenRegion",
+      "type": "region"
+    }
+  ],
+  "themeLayoutType": "Inner",
+  "type": "view",
+  "viewType": "custom-udemy"
+}

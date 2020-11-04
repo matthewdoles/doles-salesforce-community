@@ -5,6 +5,31 @@
   "label": "Projects",
   "regions": [
     {
+      "components": [
+        {
+          "componentAttributes": {
+            "bannerBackgroundColor": "",
+            "bannerPosition": "bottom",
+            "bannerSizePercent": 20,
+            "borderRadius": 20,
+            "haveBanner": true,
+            "iconBackgroundColor": "rgb(255,255,255)",
+            "iconSize": "medium",
+            "noImageColor": "rgb(212, 212, 212)",
+            "overlay": "rgba(0, 0, 0, 0.33)",
+            "templateType": "full",
+            "tileMenuEditor": "Project_Navigation_Menu",
+            "titleColor": "",
+            "titleFontSize": "large",
+            "titleHorizontalAlign": "center"
+          },
+          "componentName": "community_navigation:tileMenu",
+          "id": "991318b7-ab9d-4925-b250-97816f4951f6",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
       "id": "5e78df55-1407-494c-8bd8-3cc9d6daea04",
       "regionName": "header",
       "type": "region"

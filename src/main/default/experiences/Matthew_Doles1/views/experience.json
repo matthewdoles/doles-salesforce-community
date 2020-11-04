@@ -5,83 +5,53 @@
   "label": "Experience",
   "regions": [
     {
-      "id": "cc38581b-0157-4da4-9915-db78e24f3d66",
-      "regionName": "header",
-      "type": "region"
-    },
-    {
       "components": [
         {
           "componentAttributes": {
-            "tabsetConfig": {
-              "UUID": "ebf4e847-4efb-48a1-930d-112d750a18c5",
-              "activeTab": "",
-              "useOverflowMenu": false,
-              "tabs": [
-                {
-                  "UUID": "b88ba541-b60f-4793-90cd-19adc9aa8c91",
-                  "tabName": "Johnson & Johnson",
-                  "tabKey": "1",
-                  "locked": false,
-                  "allowGuestUser": true,
-                  "seedComponents": []
-                },
-                {
-                  "UUID": "8f36850f-092f-4090-8933-4cfaedc80fc7",
-                  "tabName": "Franco Signor",
-                  "tabKey": "2",
-                  "locked": false,
-                  "allowGuestUser": true,
-                  "seedComponents": []
-                }
-              ]
-            }
+            "title": "Johnson and Johnson"
           },
-          "componentName": "forceCommunity:tabset",
-          "id": "ebf4e847-4efb-48a1-930d-112d750a18c5",
-          "regions": [
-            {
-              "components": [
-                {
-                  "componentAttributes": {
-                    "richTextValue": "<p><br></p><h2><b>Application Support Analyst (Contract)</b></h2><p><br></p><p><span style=\"font-size: 16px;\">One week after earning my Salesforce Admin certification, I was grateful to land a job with Johnson &amp; Johnson as an Application Support Analyst. Technology Services within J&amp;J can be split up into two sectors: BUILD and RUN. I serve on the RUN side. The RUN sector can be split up even further into various clusters with varying technology specialties. The cluster I serve on is called Customer &amp; Sales which specializes primarily in Salesforce technology. Our application portfolio boasts over 30 unique Salesforce instances. Each of these Salesforce applications are owned by a business, and the day-to-day support of these applications is contracted to a 3rd-party vendor (Cognizant for Customer &amp; Sales). Thus, the RUN team serves as a liaison between the owning-business and the vendor.</span></p><p><br></p><p><span style=\"font-size: 16px;\">Since the support of an application is contracted, I seldomly find myself within a Salesforce instance doing actual support. However, I am helping triage Incident tickets submitted by the application users through an internal ticketing tool developed by J&amp;J called IRIS. Thus, my understanding of Salesforce is being applied and growing every day to help mitigate issues.</span></p><p><span style=\"font-size: 16px;\">While that broadly covers most of my day-to-day duties, I am also responsible for several long-term projects:</span></p><p><br></p><ul><li><b style=\"font-size: 16px;\">Operations Run Book (ORB):&nbsp;</b><span style=\"font-size: 16px;\">Key documentation for an application includes a Technical Design Specifications (TDS) and an Operations Run Book (ORB). A TDS is created by the BUILD team during development, and details the entire inner workings of an application. An ORB further details information that may not be covered by a TDS such as points of failures, impacted user communities, communication and resolution protocols for outages, and comprehensive contact information. When I came onto the team and started learning about supporting the cluster's applications, I was pointed towards the application's corresponding ORB to learn more about supporting said application. However, we soon realized the overall landscape of our cluster's ORBs was in a poor state. Thus, I was put in charge of an effort to work with the various support teams to help improve the quality of each application's ORB and bring them to our baseline standards.</span></li></ul><p><br></p><ul><li><b style=\"font-size: 16px;\">Aggrify:&nbsp;</b><span style=\"font-size: 16px;\">One of my favorite projects was enabling a service-level targeting tool offered by another RUN team cluster (Data &amp; Analytics) called Aggrify. This tool captures pertinent metadata about any jobs your application may have. We enabled this tool specifically for Scheduled Apex classes within our various Salesforce applications. With Aggrify enabled, we can monitor for job success and failures, analyze the mean time for a job to complete, and troubleshoot possible solutions to make the job run more efficiently.</span></li></ul><p><br></p><ul><li><b style=\"font-size: 16px;\">Knowledge Articles:&nbsp;</b><span style=\"font-size: 16px;\">Whenever a Incident ticket is resolved in IRIS, you are required to find or create an appropriate Knowledge Article that details the steps taken to resolve the issue in order to close the ticket. Over-time you build a strong Knowledge Base, and steps to resolve repeated issues can be found easily. However, over-time we have found that the vendor has cut corners, and they create lazy Knowledge Articles that have no sustenance whatsoever, and only pollute the Knowledge Base. To help mitigate this issue, our cluster created an audit process to randomly select various Knowledge Articles created in the prior month and verify the quality of their content. If a Knowledge Article does not meet the baseline standards, we provide feedback to the original author and they are to update it appropriately.</span></li></ul><p><br></p><ul><li><b style=\"font-size: 16px;\">CopyStorm:&nbsp;</b><span style=\"font-size: 16px;\">CopyStorm is a suite of 3rd party tools offered by&nbsp;</span><a href=\"https://www.capstorm.com/\" target=\"null\" style=\"font-size: 16px;\"><b>CapStorm</b></a><span style=\"font-size: 16px;\">&nbsp;which allow you to backup salesforce data and metadata, and restore it to any environment. So, should an application have a major release go awry, you can restore a production environment to a previous stable state with clean data. We have started integrating our portfolio of applications with CopyStorm since mid 2019. While this service is primarily supported by our vendor (Cognizant), a co-worker and I have been involved in the process as an learning experience.</span></li></ul><p>&nbsp;</p>"
-                  },
-                  "componentName": "forceCommunity:richTextInline",
-                  "id": "07db7386-238e-4a32-a116-fcd9549c72e3",
-                  "renditionMap": {},
-                  "type": "component"
-                }
-              ],
-              "id": "b88ba541-b60f-4793-90cd-19adc9aa8c91",
-              "regionLabel": "Johnson & Johnson",
-              "regionName": "1",
-              "renditionMap": {},
-              "type": "region"
-            },
-            {
-              "components": [
-                {
-                  "componentAttributes": {
-                    "richTextValue": "<p><br></p><h2><b>Intern Junior Developer</b></h2><h4><b>Jun 2015 – Aug 2018</b></h4><p><br></p><p><span style=\"font-size: 16px;\">While attending college at University of South Florida Sarasota-Manatee, I was fortunate enough to intern part-time as a Junior Developer at Franco Signor LLC. The company operates within the Medicare industry; more specifically Medicare Secondary Payer (MSP) compliance and solutions. As a Junior Developer, my day-to-day responsibilities included:</span></p><p><br></p><ul><li><span style=\"font-size: 16px;\">Programming SSIS packages that query client data using SQL which is then transformed and imported into the appropriate Salesforce objects.</span></li><li><span style=\"font-size: 16px;\">Design and develop various internal, web-based applications (.NET/C#) that allow the sales and operations teams to interact with client data.</span></li><li><span style=\"font-size: 16px;\">Collaborate in a team environment with IT, operations, and sales to design and create customized solutions crucial to business operations.</span></li><li><span style=\"font-size: 16px;\">Maintain existing applications to eliminate bugs, add minor enhancements, and improve business productivity.</span></li><li><span style=\"font-size: 16px;\">Develop customized SSRS reports for analysis based on business requirements.</span></li><li><span style=\"font-size: 16px;\">Database design, maintenance, and normalization in SQL Server Management Studio</span></li><li><span style=\"font-size: 16px;\">Provide maintenance and support for company’s public facing WordPress website:&nbsp;</span><a href=\"https://francosignor.com/\" target=\"null\" style=\"font-size: 16px;\"><b>https://francosignor.com/</b></a></li></ul><p>&nbsp;</p>"
-                  },
-                  "componentName": "forceCommunity:richTextInline",
-                  "id": "7ab39bee-8115-4d71-85cc-20e33205783d",
-                  "renditionMap": {},
-                  "type": "component"
-                }
-              ],
-              "id": "8f36850f-092f-4090-8933-4cfaedc80fc7",
-              "regionLabel": "Franco Signor",
-              "regionName": "2",
-              "renditionMap": {},
-              "type": "region"
-            }
-          ],
+          "componentName": "c:contentHeader",
+          "id": "144c1135-9aa7-4531-b771-70167ecf41ed",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
+        {
+          "componentAttributes": {
+            "richTextValue": "<p><br></p><h2><b>Application Support Analyst (Contract)</b></h2><p><br></p><p><span style=\"font-size: 16px;\">One week after earning my Salesforce Admin certification, I was grateful to land a job with Johnson &amp; Johnson as an Application Support Analyst. Technology Services within J&amp;J can be split up into two sectors: BUILD and RUN. I serve on the RUN side. The RUN sector can be split up even further into various clusters with varying technology specialties. The cluster I serve on is called Customer &amp; Sales which specializes primarily in Salesforce technology. Our application portfolio boasts over 30 unique Salesforce instances. Each of these Salesforce applications are owned by a business, and the day-to-day support of these applications is contracted to a 3rd-party vendor (Cognizant for Customer &amp; Sales). Thus, the RUN team serves as a liaison between the owning-business and the vendor.</span></p><p><br></p><p><span style=\"font-size: 16px;\">Since the support of an application is contracted, I seldomly find myself within a Salesforce instance doing actual support. However, I am helping triage Incident tickets submitted by the application users through an internal ticketing tool developed by J&amp;J called IRIS. Thus, my understanding of Salesforce is being applied and growing every day to help mitigate issues.</span></p><p><span style=\"font-size: 16px;\">While that broadly covers most of my day-to-day duties, I am also responsible for several long-term projects:</span></p><p><br></p><ul><li><b style=\"font-size: 16px;\">Operations Run Book (ORB):&nbsp;</b><span style=\"font-size: 16px;\">Key documentation for an application includes a Technical Design Specifications (TDS) and an Operations Run Book (ORB). A TDS is created by the BUILD team during development, and details the entire inner workings of an application. An ORB further details information that may not be covered by a TDS such as points of failures, impacted user communities, communication and resolution protocols for outages, and comprehensive contact information. When I came onto the team and started learning about supporting the cluster's applications, I was pointed towards the application's corresponding ORB to learn more about supporting said application. However, we soon realized the overall landscape of our cluster's ORBs was in a poor state. Thus, I was put in charge of an effort to work with the various support teams to help improve the quality of each application's ORB and bring them to our baseline standards.</span></li></ul><p><br></p><ul><li><b style=\"font-size: 16px;\">Aggrify:&nbsp;</b><span style=\"font-size: 16px;\">One of my favorite projects was enabling a service-level targeting tool offered by another RUN team cluster (Data &amp; Analytics) called Aggrify. This tool captures pertinent metadata about any jobs your application may have. We enabled this tool specifically for Scheduled Apex classes within our various Salesforce applications. With Aggrify enabled, we can monitor for job success and failures, analyze the mean time for a job to complete, and troubleshoot possible solutions to make the job run more efficiently.</span></li></ul><p><br></p><ul><li><b style=\"font-size: 16px;\">Knowledge Articles:&nbsp;</b><span style=\"font-size: 16px;\">Whenever a Incident ticket is resolved in IRIS, you are required to find or create an appropriate Knowledge Article that details the steps taken to resolve the issue in order to close the ticket. Over-time you build a strong Knowledge Base, and steps to resolve repeated issues can be found easily. However, over-time we have found that the vendor has cut corners, and they create lazy Knowledge Articles that have no sustenance whatsoever, and only pollute the Knowledge Base. To help mitigate this issue, our cluster created an audit process to randomly select various Knowledge Articles created in the prior month and verify the quality of their content. If a Knowledge Article does not meet the baseline standards, we provide feedback to the original author and they are to update it appropriately.</span></li></ul><p><br></p><ul><li><b style=\"font-size: 16px;\">CopyStorm:&nbsp;</b><span style=\"font-size: 16px;\">CopyStorm is a suite of 3rd party tools offered by&nbsp;</span><a href=\"https://www.capstorm.com/\" target=\"null\" style=\"font-size: 16px;\"><b>CapStorm</b></a><span style=\"font-size: 16px;\">&nbsp;which allow you to backup salesforce data and metadata, and restore it to any environment. So, should an application have a major release go awry, you can restore a production environment to a previous stable state with clean data. We have started integrating our portfolio of applications with CopyStorm since mid 2019. While this service is primarily supported by our vendor (Cognizant), a co-worker and I have been involved in the process as an learning experience.</span></li></ul><p>&nbsp;</p>"
+          },
+          "componentName": "forceCommunity:richTextInline",
+          "id": "07db7386-238e-4a32-a116-fcd9549c72e3",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
+        {
+          "componentAttributes": {
+            "title": "Franco Signor"
+          },
+          "componentName": "c:contentHeader",
+          "id": "b80a0529-7727-41db-8f6f-a308920b1792",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
+        {
+          "componentAttributes": {
+            "richTextValue": "<p><br></p><h2><b>Intern Junior Developer</b></h2><h4><b>Jun 2015 – Aug 2018</b></h4><p><br></p><p><span style=\"font-size: 16px;\">While attending college at University of South Florida Sarasota-Manatee, I was fortunate enough to intern part-time as a Junior Developer at Franco Signor LLC. The company operates within the Medicare industry; more specifically Medicare Secondary Payer (MSP) compliance and solutions. As a Junior Developer, my day-to-day responsibilities included:</span></p><p><br></p><ul><li><span style=\"font-size: 16px;\">Programming SSIS packages that query client data using SQL which is then transformed and imported into the appropriate Salesforce objects.</span></li><li><span style=\"font-size: 16px;\">Design and develop various internal, web-based applications (.NET/C#) that allow the sales and operations teams to interact with client data.</span></li><li><span style=\"font-size: 16px;\">Collaborate in a team environment with IT, operations, and sales to design and create customized solutions crucial to business operations.</span></li><li><span style=\"font-size: 16px;\">Maintain existing applications to eliminate bugs, add minor enhancements, and improve business productivity.</span></li><li><span style=\"font-size: 16px;\">Develop customized SSRS reports for analysis based on business requirements.</span></li><li><span style=\"font-size: 16px;\">Database design, maintenance, and normalization in SQL Server Management Studio</span></li><li><span style=\"font-size: 16px;\">Provide maintenance and support for company’s public facing WordPress website:&nbsp;</span><a href=\"https://francosignor.com/\" target=\"null\" style=\"font-size: 16px;\"><b>https://francosignor.com/</b></a></li></ul><p>&nbsp;</p>"
+          },
+          "componentName": "forceCommunity:richTextInline",
+          "id": "7ab39bee-8115-4d71-85cc-20e33205783d",
           "renderPriority": "NEUTRAL",
           "renditionMap": {},
           "type": "component"
         }
       ],
+      "id": "cc38581b-0157-4da4-9915-db78e24f3d66",
+      "regionName": "header",
+      "type": "region"
+    },
+    {
       "id": "7277d002-4513-49ea-82be-dcb5f3f4b920",
       "regionName": "content",
       "type": "region"
