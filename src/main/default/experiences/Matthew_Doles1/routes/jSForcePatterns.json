@@ -2,7 +2,7 @@
   "activeViewId": "df618390-559d-426b-b801-f1b855ad7472",
   "appPageId": "bc7511ba-0fce-40eb-b7e3-1ebb0d62c409",
   "id": "58f92048-99eb-447e-ae62-d177f4c204b8",
-  "label": "JSForce Patterns",
+  "label": "JSforce Patterns",
   "pageAccess": "UseParent",
   "routeType": "custom-jsforce-patterns",
   "type": "route",

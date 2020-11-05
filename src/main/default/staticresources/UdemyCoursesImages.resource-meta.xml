@@ -2,5 +2,5 @@
 <StaticResource xmlns="http://soap.sforce.com/2006/04/metadata">
     <cacheControl>Public</cacheControl>
     <contentType>application/x-zip-compressed</contentType>
-    <description>Images for contentHeader component</description>
+    <description>Images for udemyCourseHeader component</description>
 </StaticResource>

@@ -28,6 +28,7 @@
     <types>
         <members>communityFooter</members>
         <members>myEducation</members>
+        <members>udemyCourseHeader</members>
         <name>LightningComponentBundle</name>
     </types>
     <types>
@@ -43,6 +44,7 @@
     <types>
         <members>FooterImages</members>
         <members>HeaderImages</members>
+        <members>UdemyCoursesImages</members>
         <name>StaticResource</name>
     </types>
     <version>49.0</version>
