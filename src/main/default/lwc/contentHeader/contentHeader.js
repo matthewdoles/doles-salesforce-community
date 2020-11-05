@@ -1,7 +1,5 @@
 import { LightningElement, api } from 'lwc';
-import FRANCO_SIGNOR from '@salesforce/contentAssetUrl/franco_signor_logo';
-import JOHNSON_AND_JOHNSON from '@salesforce/contentAssetUrl/johnson_and_johnson';
-import RANGER from '@salesforce/contentAssetUrl/ranger';
+import HEADER_IMAGES from '@salesforce/resourceUrl/HeaderImages';
 
 export default class SalesforceJourney extends LightningElement {
   @api title;
@@ -10,16 +8,16 @@ export default class SalesforceJourney extends LightningElement {
   connectedCallback() {
     switch (this.title) {
       case 'Franco Signor':
-        this.image = FRANCO_SIGNOR;
+        this.image = HEADER_IMAGES + '/franco-signor.jpg';
         break;
       case 'Johnson and Johnson':
-        this.image = JOHNSON_AND_JOHNSON;
+        this.image = HEADER_IMAGES + '/johnson-and-johnson.jpg';
         break;
       case 'Trailhead':
-        this.image = RANGER;
+        this.image = HEADER_IMAGES + '/ranger.png';
         break;
       default:
-        this.image = FRANCO_SIGNOR;
+        this.image = HEADER_IMAGES + '/franco-signor.png';
     }
   }
 }

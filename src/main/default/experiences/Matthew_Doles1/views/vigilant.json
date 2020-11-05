@@ -1,0 +1,44 @@
+{
+  "appPageId": "bc7511ba-0fce-40eb-b7e3-1ebb0d62c409",
+  "componentName": "siteforce:sldsOneColLayout",
+  "id": "93951b25-3671-4bf5-af2d-c552cb802b5c",
+  "label": "Vigilant",
+  "regions": [
+    {
+      "id": "a29c11cf-1195-4d68-8335-b778ff1f1955",
+      "regionName": "header",
+      "type": "region"
+    },
+    {
+      "id": "5b276ac6-e11d-49db-b9ad-bb5f84392760",
+      "regionName": "content",
+      "type": "region"
+    },
+    {
+      "id": "c48cff16-e150-40bb-aae6-58e127cbdf8a",
+      "regionName": "footer",
+      "type": "region"
+    },
+    {
+      "components": [
+        {
+          "componentAttributes": {
+            "description": "",
+            "metaTags": "",
+            "title": "Vigilant"
+          },
+          "componentName": "forceCommunity:seoAssistant",
+          "id": "aae323bd-94b8-4f21-a594-e190122437e6",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
+      "id": "e5c3b443-5b85-41f8-b21c-5dd28fc5083e",
+      "regionName": "sfdcHiddenRegion",
+      "type": "region"
+    }
+  ],
+  "themeLayoutType": "Inner",
+  "type": "view",
+  "viewType": "custom-vigilant"
+}

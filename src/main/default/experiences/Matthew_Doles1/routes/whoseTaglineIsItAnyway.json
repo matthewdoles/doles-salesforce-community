@@ -1,0 +1,10 @@
+{
+  "activeViewId": "e0030ea6-58c7-4862-a245-1c73f62850ec",
+  "appPageId": "bc7511ba-0fce-40eb-b7e3-1ebb0d62c409",
+  "id": "dc9e0e8c-ab8f-48de-89de-93466367cc59",
+  "label": "Whose Tagline is it Anyway",
+  "pageAccess": "UseParent",
+  "routeType": "custom-whose-tagline-is-it-anyway",
+  "type": "route",
+  "urlPrefix": "whose-tagline-is-it-anyway"
+}

@@ -1,0 +1,183 @@
+{
+  "appPageId": "bc7511ba-0fce-40eb-b7e3-1ebb0d62c409",
+  "componentName": "siteforce:sldsTwoCol84Layout",
+  "id": "9e9a7676-5582-40a1-a734-a55e18898786",
+  "label": "Udemy",
+  "regions": [
+    {
+      "components": [
+        {
+          "componentAttributes": {
+            "richTextValue": "<p><span style=\"font-size: 16px;\">While these are not neceesarily projects I have created from scratch, I am a big fan of </span><a href=\"https://www.udemy.com/\" target=\"_blank\" style=\"font-size: 16px;\"><b>Udemy </b></a><span style=\"font-size: 16px;\">courses to expand on or learn new skills - skills which have helped me create some of the projects you do see in my portfolio. The following is a timeline of my curriculum and a promotion of these instructor's content:</span></p>"
+          },
+          "componentName": "forceCommunity:richTextInline",
+          "id": "4c0e8f50-67c5-4c09-9dc5-0d217120f4fb",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
+      "id": "b390bc37-1e67-4013-84a7-b04b82e3d34a",
+      "regionName": "header",
+      "type": "region"
+    },
+    {
+      "components": [
+        {
+          "componentAttributes": {
+            "course": "Salesforce Admin"
+          },
+          "componentName": "c:udemyCourseHeader",
+          "id": "f653cde3-8011-4aaf-8cfb-87cb398560f1",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
+        {
+          "componentAttributes": {
+            "richTextValue": "<p><b style=\"font-size: 16px;\">Instructor:</b><span style=\"font-size: 16px;\"> Mike Wheeler</span></p><p><b style=\"font-size: 16px;\">Completed:</b><span style=\"font-size: 16px;\"> August 2018</span></p><p><b style=\"font-size: 16px;\">Review:</b><span style=\"font-size: 16px;\"> Helpful resource in passing the Salesforce Admin I certification exam. The content is still probably good and relevant, but the course is now also offered in Lightning Experience as the admin exam question bank evolves and Salesforce Classic is phased out.</span></p>"
+          },
+          "componentName": "forceCommunity:richTextInline",
+          "id": "c65e6f1b-04ed-4eb5-b03a-b2b90dac41cf",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
+        {
+          "componentAttributes": {
+            "course": "Platform App Builder"
+          },
+          "componentName": "c:udemyCourseHeader",
+          "id": "2e8d07e4-adb4-4c96-8bfa-743ac2cd0db2",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
+        {
+          "componentAttributes": {
+            "richTextValue": "<p><b style=\"font-size: 16px;\">Instructor:</b><span style=\"font-size: 16px;\"> Mike Wheeler</span></p><p><b style=\"font-size: 16px;\">Completed:</b><span style=\"font-size: 16px;\"> December 2018</span></p><p><b style=\"font-size: 16px;\">Review:</b><span style=\"font-size: 16px;\"> Helpful resource in passing the Platform App Builder certification exam. The certification itself is a mix of both Admin and Developer. While it was good to understand what content the exam would cover, some of it was a retread of material covered in the above admin course.</span></p>"
+          },
+          "componentName": "forceCommunity:richTextInline",
+          "id": "60a30b10-da23-4c12-92f5-ee85cb3ce82c",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
+        {
+          "componentAttributes": {
+            "course": "PD1"
+          },
+          "componentName": "c:udemyCourseHeader",
+          "id": "b34875ec-25b2-4d1c-a76a-adf5341d62c2",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
+        {
+          "componentAttributes": {
+            "richTextValue": "<p><b style=\"font-size: 16px;\">Instructor:</b><span style=\"font-size: 16px;\"> </span><span style=\"font-size: 16px; color: rgb(68, 68, 68);\">Deepika Khanna</span></p><p><b style=\"font-size: 16px;\">Completed:</b><span style=\"font-size: 16px;\"> January 2019</span></p><p><b style=\"font-size: 16px;\">Review:</b><span style=\"font-size: 16px;\"> Helpful resource in passing the Platform Developer I certification exam. The course does a great job of laying out the topics the exam will cover, and then walking through real examples to understand those concepts. However, depending on your own personal experience, a bit more studying may be required in order to feel comfortable taking the exam - memerizing things such as order of execution, govenor limits, etc.</span></p>"
+          },
+          "componentName": "forceCommunity:richTextInline",
+          "id": "fe3a1000-aa6e-4933-aa95-f1118beeb331",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
+        {
+          "componentAttributes": {
+            "course": "Alexa"
+          },
+          "componentName": "c:udemyCourseHeader",
+          "id": "dfca5c8e-856e-46ea-b5d1-1c2a6d573b87",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
+        {
+          "componentAttributes": {
+            "course": "Node"
+          },
+          "componentName": "c:udemyCourseHeader",
+          "id": "1aefd189-e72a-4d8f-97a5-61bac831ae85",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
+        {
+          "componentAttributes": {
+            "course": "React"
+          },
+          "componentName": "c:udemyCourseHeader",
+          "id": "e7ccba25-825a-47b1-be59-6bcc45264361",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
+        {
+          "componentAttributes": {
+            "course": "MERN"
+          },
+          "componentName": "c:udemyCourseHeader",
+          "id": "02052359-90f0-4a28-9e5d-2144bf4c73e2",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
+        {
+          "componentAttributes": {
+            "course": "React Native"
+          },
+          "componentName": "c:udemyCourseHeader",
+          "id": "b67dd5e4-a557-42ff-9a41-0ef5d2f62512",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
+        {
+          "componentAttributes": {
+            "course": "Electron"
+          },
+          "componentName": "c:udemyCourseHeader",
+          "id": "a168fa8f-6604-45eb-9e43-dbe2de097f89",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
+      "id": "5ff34504-1988-4790-8510-5f10f79b9b5e",
+      "regionName": "content",
+      "type": "region"
+    },
+    {
+      "id": "f65f4153-ac18-404d-8324-e0bc2c6383c2",
+      "regionName": "footer",
+      "type": "region"
+    },
+    {
+      "components": [
+        {
+          "componentAttributes": {
+            "description": "",
+            "metaTags": "",
+            "title": "Udemy"
+          },
+          "componentName": "forceCommunity:seoAssistant",
+          "id": "859573ff-5bde-4756-96b0-6b927cba0a17",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
+      "id": "b3791208-1679-4650-820b-a45506b28963",
+      "regionName": "sfdcHiddenRegion",
+      "type": "region"
+    },
+    {
+      "id": "4ab853b7-0bbe-456e-b643-810fa8abfa7f",
+      "regionName": "sidebar",
+      "type": "region"
+    }
+  ],
+  "themeLayoutType": "F4A0MrBE6EhmVAlNBbWHUjnao6YVDp",
+  "type": "view",
+  "viewType": "custom-udemy"
+}

@@ -28,11 +28,13 @@
     <types>
         <members>communityFooter</members>
         <members>myEducation</members>
+        <members>udemyCourseHeader</members>
         <name>LightningComponentBundle</name>
     </types>
     <types>
         <members>Default_Navigation</members>
         <members>Default_User_Profile_Menu</members>
+        <members>Project_Navigation_Menu</members>
         <name>NavigationMenu</name>
     </types>
     <types>
@@ -41,6 +43,8 @@
     </types>
     <types>
         <members>FooterImages</members>
+        <members>HeaderImages</members>
+        <members>UdemyCoursesImages</members>
         <name>StaticResource</name>
     </types>
     <version>49.0</version>

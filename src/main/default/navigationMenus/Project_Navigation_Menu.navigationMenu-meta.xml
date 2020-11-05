@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NavigationMenu xmlns="http://soap.sforce.com/2006/04/metadata">
+    <container>Matthew Doles</container>
+    <containerType>Network</containerType>
+    <label>Project Navigation Menu</label>
+    <navigationMenuItem>
+        <label>Vigilant</label>
+        <menuItemBranding>
+            <tileImage>VigilantAppLogo</tileImage>
+        </menuItemBranding>
+        <position>1</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>/vigilant</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Whose Tagline is it Anyway</label>
+        <menuItemBranding>
+            <tileImage>whosetaglineisitanyway</tileImage>
+        </menuItemBranding>
+        <position>2</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>/whose-tagline-is-it-anyway</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>JSforce Patterns</label>
+        <menuItemBranding>
+            <tileImage>jsforcelogo</tileImage>
+        </menuItemBranding>
+        <position>3</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>/jsforce-patterns</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>LWC Jest</label>
+        <menuItemBranding>
+            <tileImage>jest2</tileImage>
+        </menuItemBranding>
+        <position>4</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>/lwc-jest</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Hopped Up Network</label>
+        <menuItemBranding>
+            <tileImage>hoppedupnetwork</tileImage>
+        </menuItemBranding>
+        <position>5</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>/hopped-up-network</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Udemy</label>
+        <menuItemBranding>
+            <tileImage>udemy</tileImage>
+        </menuItemBranding>
+        <position>6</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>/udemy</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+</NavigationMenu>

@@ -1,0 +1,44 @@
+{
+  "appPageId": "bc7511ba-0fce-40eb-b7e3-1ebb0d62c409",
+  "componentName": "siteforce:sldsOneColLayout",
+  "id": "b2fce91e-7986-4aa8-a65c-27882ab9d61e",
+  "label": "LWC Jest",
+  "regions": [
+    {
+      "id": "04003f34-3613-41d4-bf1f-554262e036a4",
+      "regionName": "header",
+      "type": "region"
+    },
+    {
+      "id": "2e08f33b-0a2d-439f-8ea5-7260ff056d1e",
+      "regionName": "content",
+      "type": "region"
+    },
+    {
+      "id": "190c3989-3166-43d3-afce-97faee353476",
+      "regionName": "footer",
+      "type": "region"
+    },
+    {
+      "components": [
+        {
+          "componentAttributes": {
+            "description": "",
+            "metaTags": "",
+            "title": "LWC Jest"
+          },
+          "componentName": "forceCommunity:seoAssistant",
+          "id": "42414465-8652-4859-8a55-0db8211a1059",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
+      "id": "5a8e9779-9015-4087-9a75-88d82155bc14",
+      "regionName": "sfdcHiddenRegion",
+      "type": "region"
+    }
+  ],
+  "themeLayoutType": "Inner",
+  "type": "view",
+  "viewType": "custom-lwc-jest"
+}
