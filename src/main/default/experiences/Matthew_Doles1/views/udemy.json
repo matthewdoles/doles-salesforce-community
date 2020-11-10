@@ -8,10 +8,10 @@
       "components": [
         {
           "componentAttributes": {
-            "richTextValue": "<p><span style=\"font-size: 16px;\">While these are not necessarily projects I have created from scratch, I am a big fan of </span><a href=\"https://www.udemy.com/\" target=\"_blank\" style=\"font-size: 16px;\"><b>Udemy </b></a><span style=\"font-size: 16px;\">courses to expand on or learn new skills - skills which have helped me create some of the projects you do see in my portfolio. The following is a timeline of my curriculum and a promotion of these instructor's content:</span></p>"
+            "richTextValue": "<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" src=\"{!contentAsset.udemybanner.1}\" style=\"width: 334.25px; height: 175.469px;\" /></p>\n<p><span style=\"font-size: 16px;\">While these are not necessarily projects I have created from scratch, I am a big fan of </span><a href=\"https://www.udemy.com/\" target=\"_blank\" style=\"font-size: 16px; background-color: rgb(255, 255, 255);\"><b>Udemy </b></a><span style=\"font-size: 16px;\">courses to expand on or learn new skills - skills which have helped me create some of the projects you do see in my portfolio. The following is a timeline of my curriculum and a promotion of these instructor's content:</span></p>"
           },
           "componentName": "forceCommunity:richTextInline",
-          "id": "4c0e8f50-67c5-4c09-9dc5-0d217120f4fb",
+          "id": "4f19a3e4-b3f4-4f17-94fc-5613d38c82e8",
           "renderPriority": "NEUTRAL",
           "renditionMap": {},
           "type": "component"
@@ -237,7 +237,7 @@
       "type": "region"
     }
   ],
-  "themeLayoutType": "F4A0MrBE6EhmVAlNBbWHUjnao6YVDp",
+  "themeLayoutType": "Inner",
   "type": "view",
   "viewType": "custom-udemy"
 }
