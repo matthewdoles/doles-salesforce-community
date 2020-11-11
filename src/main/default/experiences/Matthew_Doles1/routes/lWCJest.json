@@ -6,5 +6,5 @@
   "pageAccess": "UseParent",
   "routeType": "custom-lwc-jest",
   "type": "route",
-  "urlPrefix": "lwc-jest"
+  "urlPrefix": "jest-lwc"
 }
