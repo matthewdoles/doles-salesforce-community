@@ -34,13 +34,13 @@
         <type>InternalLink</type>
     </navigationMenuItem>
     <navigationMenuItem>
-        <label>LWC Jest</label>
+        <label>Jest &amp; LWC</label>
         <menuItemBranding>
             <tileImage>jest2</tileImage>
         </menuItemBranding>
         <position>4</position>
         <publiclyAvailable>true</publiclyAvailable>
-        <target>/lwc-jest</target>
+        <target>/jest-lwc</target>
         <type>InternalLink</type>
     </navigationMenuItem>
     <navigationMenuItem>

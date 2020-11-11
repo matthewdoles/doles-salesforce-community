@@ -8,10 +8,10 @@
       "components": [
         {
           "componentAttributes": {
-            "richTextValue": "<p><span style=\"font-size: 16px;\">While these are not neceesarily projects I have created from scratch, I am a big fan of </span><a href=\"https://www.udemy.com/\" target=\"_blank\" style=\"font-size: 16px;\"><b>Udemy </b></a><span style=\"font-size: 16px;\">courses to expand on or learn new skills - skills which have helped me create some of the projects you do see in my portfolio. The following is a timeline of my curriculum and a promotion of these instructor's content:</span></p>"
+            "richTextValue": "<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" src=\"{!contentAsset.udemybanner.1}\" style=\"width: 334.25px; height: 175.469px;\" /></p>\n<p><span style=\"font-size: 16px;\">While these are not necessarily projects I have created from scratch, I am a big fan of </span><a href=\"https://www.udemy.com/\" target=\"_blank\" style=\"font-size: 16px; background-color: rgb(255, 255, 255);\"><b>Udemy </b></a><span style=\"font-size: 16px;\">courses to expand on or learn new skills - skills which have helped me create some of the projects you do see in my portfolio. The following is a timeline of my curriculum and a promotion of these instructor's content:</span></p>"
           },
           "componentName": "forceCommunity:richTextInline",
-          "id": "4c0e8f50-67c5-4c09-9dc5-0d217120f4fb",
+          "id": "4f19a3e4-b3f4-4f17-94fc-5613d38c82e8",
           "renderPriority": "NEUTRAL",
           "renditionMap": {},
           "type": "component"
@@ -95,10 +95,30 @@
         },
         {
           "componentAttributes": {
+            "richTextValue": "<p><b style=\"font-size: 16px;\">Instructor:</b><span style=\"font-size: 16px;\"> </span><span style=\"font-size: 16px; color: rgb(68, 68, 68);\">Vivek Kapoor</span></p><p><b style=\"font-size: 16px;\">Completed:</b><span style=\"font-size: 16px;\"> June 2019</span></p><p><b style=\"font-size: 16px;\">Review:</b><span style=\"font-size: 16px;\"> Easy to follow-along course, especially as it was my first exposure to AWS and Node.js. This course provided the basis and concepts I needed to created my own Alexa Skill: </span><a href=\"whose-tagline-is-it-anyway\" target=\"_blank\" style=\"font-size: 16px;\">Whose Tagline is it Anyway</a><span style=\"font-size: 16px;\">. </span></p>"
+          },
+          "componentName": "forceCommunity:richTextInline",
+          "id": "477d4e13-0b26-4048-a1c0-89b58403aa9b",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
+        {
+          "componentAttributes": {
             "course": "Node"
           },
           "componentName": "c:udemyCourseHeader",
           "id": "1aefd189-e72a-4d8f-97a5-61bac831ae85",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
+        {
+          "componentAttributes": {
+            "richTextValue": "<p><b style=\"font-size: 16px;\">Instructor:</b><span style=\"font-size: 16px;\"> </span><span style=\"font-size: 16px; color: rgb(68, 68, 68);\">Andrew Mead</span></p><p><b style=\"font-size: 16px;\">Completed:</b><span style=\"font-size: 16px;\"> December 2019</span></p><p><b style=\"font-size: 16px;\">Review:</b><span style=\"font-size: 16px;\"> Around this time I started getting really ineterested in JavaScript. Having programmed Lightning Web Components in Salesforce (JavaScript frontend) and a whole Alexa Skill in Node.js - I wanted to dive deeper in the various JavaScript stacks out there and started with this very insightful course.</span></p><p><b style=\"font-size: 16px;\">My follow along code: </b><a href=\"https://github.com/matthewdoles/nodejs-developer-course\" target=\"_blank\" style=\"font-size: 16px;\">https://github.com/matthewdoles/nodejs-developer-course</a></p>"
+          },
+          "componentName": "forceCommunity:richTextInline",
+          "id": "ac24d758-d3bf-4fd6-9909-15b117532288",
           "renderPriority": "NEUTRAL",
           "renditionMap": {},
           "type": "component"
@@ -115,10 +135,30 @@
         },
         {
           "componentAttributes": {
+            "richTextValue": "<p><b style=\"font-size: 16px;\">Instructor:</b><span style=\"font-size: 16px;\"> Maximilian Schwarzmüller</span></p><p><b style=\"font-size: 16px;\">Completed:</b><span style=\"font-size: 16px;\"> January 2020</span></p><p><b style=\"font-size: 16px;\">Review:</b><span style=\"font-size: 16px;\"> After finishing the Node.js course I was hooked. With Node.js being the most popular JavaScript backend languages, I wanted to learn one of the most popular frontend languages. Of course you could debate on what is the most popular frontend language, but I landed on this React course largely because it was one of the most popular and recommended on Udemy. Having now completed it, I can see why this comprehensive look into React comes so recommened which covers concepts both new and old. On top of that, I find Maximilian Schwarzmüller to be one of the best instructors on the platform having taken several of his courses as you will see below. </span></p><p><b style=\"font-size: 16px;\">My follow along code: </b><a href=\"https://github.com/matthewdoles/react-developer-course\" target=\"_blank\" style=\"font-size: 16px;\">https://github.com/matthewdoles/react-developer-course</a></p>"
+          },
+          "componentName": "forceCommunity:richTextInline",
+          "id": "0c930025-311d-4a67-9715-a4df26342a63",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
+        {
+          "componentAttributes": {
             "course": "MERN"
           },
           "componentName": "c:udemyCourseHeader",
           "id": "02052359-90f0-4a28-9e5d-2144bf4c73e2",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
+        {
+          "componentAttributes": {
+            "richTextValue": "<p><b style=\"font-size: 16px;\">Instructor:</b><span style=\"font-size: 16px;\"> Maximilian Schwarzmüller</span></p><p><b style=\"font-size: 16px;\">Completed:</b><span style=\"font-size: 16px;\"> February 2020</span></p><p><b style=\"font-size: 16px;\">Review:</b><span style=\"font-size: 16px;\"> Having finished both a Node.js and React course in quick succession, I wanted to see clearly how the two tied together. While I could have gone at it myself and probably made my way, this course was a great follow-along which provided me the fundamentals of MERN and other similar stacks.</span></p><p><b style=\"font-size: 16px;\">My follow along code: </b><a href=\"https://github.com/matthewdoles/mern-fullstack-course\" target=\"_blank\" style=\"font-size: 16px;\">https://github.com/matthewdoles/mern-fullstack-course</a></p>"
+          },
+          "componentName": "forceCommunity:richTextInline",
+          "id": "f2a161cd-f801-4a81-9e69-0ad54d6bb7e2",
           "renderPriority": "NEUTRAL",
           "renditionMap": {},
           "type": "component"
@@ -135,10 +175,30 @@
         },
         {
           "componentAttributes": {
+            "richTextValue": "<p><b style=\"font-size: 16px;\">Instructor:</b><span style=\"font-size: 16px;\"> Maximilian Schwarzmüller</span></p><p><b style=\"font-size: 16px;\">Completed:</b><span style=\"font-size: 16px;\"> May 2020</span></p><p><b style=\"font-size: 16px;\">Review:</b><span style=\"font-size: 16px;\"> With a good understanding of React, I was turned on to React Native by a friend, </span><a href=\"https://www.linkedin.com/in/donnie-waters\" target=\"_blank\" style=\"font-size: 16px;\">Donnie Waters</a><span style=\"font-size: 16px;\">, who has used the stack extensively to develop his own successful mobile app: </span><a href=\"https://rocket-league.com/app\" target=\"_blank\" style=\"font-size: 16px;\">Rocket League Garage</a><span style=\"font-size: 16px;\">. With this handy course and his guidance, I created my first mobile app: </span><a href=\"vigilant\" target=\"_blank\" style=\"font-size: 16px;\">Vigilant - Valorant Strategy</a><span style=\"font-size: 16px;\">.</span></p><p><b style=\"font-size: 16px;\">My follow along code: </b><a href=\"https://github.com/matthewdoles/react-native-course\" target=\"_blank\" style=\"font-size: 16px;\">https://github.com/matthewdoles/react-native-course</a></p>"
+          },
+          "componentName": "forceCommunity:richTextInline",
+          "id": "6cec2a0d-d921-44c6-b032-ee1ded1b02a4",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
+        {
+          "componentAttributes": {
             "course": "Electron"
           },
           "componentName": "c:udemyCourseHeader",
           "id": "a168fa8f-6604-45eb-9e43-dbe2de097f89",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
+        {
+          "componentAttributes": {
+            "richTextValue": "<p><b style=\"font-size: 16px;\">Instructor:</b><span style=\"font-size: 16px;\"> Maximilian Schwarzmüller</span></p><p><b style=\"font-size: 16px;\">Completed:</b><span style=\"font-size: 16px;\"> September 2020</span></p><p><b style=\"font-size: 16px;\">Review: </b><span style=\"font-size: 16px;\">After developing my first mobile app, </span><a href=\"https://matthewdoles-dev-ed.livepreview.salesforce-communities.com/matthew/s/vigilant\" target=\"_blank\" style=\"font-size: 16px; background-color: rgb(255, 255, 255);\">Vigilant - Valorant Strategy</a><span style=\"font-size: 16px;\">, I receieved alot of interest to port the app to desktop. One of the most intriguing solutions was to port it into an Electron app. Given a mix of lack of time and having been beat to the desktop market by other similar apps, Vigilant has not yet been ported to an Electron app. Though, the course still offers some good material and already conisdering using the framework for future projects.</span></p><p><b style=\"font-size: 16px;\">My follow along code: </b><a href=\"https://github.com/matthewdoles/electron-course\" target=\"_blank\" style=\"font-size: 16px;\">https://github.com/matthewdoles/electron-course</a></p><p> </p>"
+          },
+          "componentName": "forceCommunity:richTextInline",
+          "id": "47586b9e-7942-4f34-9184-14729f9c2756",
           "renderPriority": "NEUTRAL",
           "renditionMap": {},
           "type": "component"
@@ -177,7 +237,7 @@
       "type": "region"
     }
   ],
-  "themeLayoutType": "F4A0MrBE6EhmVAlNBbWHUjnao6YVDp",
+  "themeLayoutType": "Inner",
   "type": "view",
   "viewType": "custom-udemy"
 }
