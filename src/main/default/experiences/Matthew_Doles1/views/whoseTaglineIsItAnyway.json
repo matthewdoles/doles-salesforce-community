@@ -8,7 +8,7 @@
       "components": [
         {
           "componentAttributes": {
-            "richTextValue": "<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" src=\"{!contentAsset.whosetaglineisitanyway.1}\" style=\"width: 180.875px; height: 180.875px;\" /></p>"
+            "richTextValue": "<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" src=\"{!contentAsset.whosetaglineisitanyway.1}\" style=\"width: 221.516px; height: 221.516px;\" /></p>"
           },
           "componentName": "forceCommunity:richTextInline",
           "id": "d60df2eb-4e95-4e71-9461-4f6c4438c870",
