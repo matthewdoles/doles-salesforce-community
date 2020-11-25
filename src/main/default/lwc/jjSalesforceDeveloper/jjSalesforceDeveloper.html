@@ -1,0 +1,144 @@
+<template>
+  <lightning-accordion>
+    <lightning-accordion-section name="A" label="askGS (Nov 2019 - Dec 2019)">
+      <p class="slds-p-vertical_small body-text">
+        The first official project I served on was quite exciting as it was a
+        human resources Salesforce community portal which was to be utilized for
+        Johnson and Johnson's 100,000+ employees. The previous askGS (GS
+        standing for Global Services) portal was a Salesforce Site.com site, and
+        entering into 2020 was in need of a overhaul. The Salesforce org as a
+        whole has been developed and maintained by our Salesforce pratners in
+        Europe (specifically based in Ireland) who themselves have built out
+        much of the functionality and features for the new portal. The job of
+        myself and a couple other developers based in my office was to implement
+        the UI/UX portion of the site. With us focused on the styling, our EMEA
+        counterparts could focus on building out the rest of the functionality
+        so that the portal could be ready by go-live which was set as January of
+        2020.
+      </p>
+      <p class="slds-p-vertical_small body-text">
+        The work in general mostly consisted of CSS styling. Salesforce
+        communities can be quite amazing in that you could re-design it entirely
+        and one wouldn't even recognize that it is Salesforce under the covers.
+        Of course, the more you drift away from out of the box styling, the more
+        effort required. With the askGS project, a 3rd party UI/UX team designed
+        some wireframes that were approved by the business as the final design
+        for the site. All in all, the design was nothing to extravagant, it
+        mostly followed the look and feel of all J&amp;J specific websites which
+        features unqiue branding colors, fonts, and icons. Applying the design
+        mostly occured at the component level, and we tried to utilize as little
+        needed CSS override as possible. The biggest challenge we faced would
+        have had to be accomadting the style to all available languages. As an
+        international platform, there were up to 20 available languges to select
+        to render the site. With sybmbol based languages like Japanese, Korean,
+        and Thai, we had to be extra careful with the word break/wrapping as
+        sometimes a translation could become confusing or even sometimes
+        offensive.
+      </p>
+    </lightning-accordion-section>
+    <lightning-accordion-section
+      name="B"
+      label="Visioncare (Jan 2020 - May 2020)"
+    >
+      <p class="slds-p-vertical_small body-text">
+        After the askGS project and entering the 2020 year, a few co-workers and
+        I from the Tampa Development Center were placed into the vision sector
+        of Johnson and Johnson. The vision sector has several Salesforce
+        instances, each one specific to a region: NA, EMEA, ASPAC, and LATAM.
+        While serving on the project, the team primarily worked in the NA and
+        EMEA instances.
+      </p>
+      <p class="slds-p-vertical_small body-text">
+        One of the major features I helped build was a tablet-centric calendar
+        using the
+        <a href="https://fullcalendar.io/"> FullCalendar</a> framework. The
+        vision sector sales users using the org may make up to 8 to 10 sales
+        calls/check-ins a day. Since a majority of these meetings are in-person,
+        a majority of sales people are issued a iPad for logging their calls in
+        Salesforce while traveling. Thus, a much needed enhancement was this
+        custom calendar application. While Salesforce offers a calendar out of
+        the box, our custom built calendar allows the user to click on an event
+        (scheduled call) which pops out a sidebar for them to review their
+        pre-meeting notes, get the location address, and log their post-meeting
+        notes all in one place. What was very exciting about the work is that
+        the team has also stripped down the calendar to its bare functionality
+        which allows it to be easily transposed to other Salesforce orgs. Thus,
+        any in Johnson and Johnson's portfolio could consume this calendar, and
+        alter to their business-specific needs.
+      </p>
+      <p class="slds-p-vertical_small body-text">
+        Another major feature we delivered was called coach calling. This
+        feature enbles regional managers to create coaching sessions for their
+        sales people. For any given account call a sales agent makes in
+        Salesforce, a manager can create a coaching session off of that sales
+        call. During the meeting a manager is not so much coaching but
+        observing, and after the call/meetnig a manager can log their notes and
+        ratings into that coaching session. The feature allows sales agents to
+        receive feedback, and manager's can accumulate a summary on how well
+        sales people are engagaing with their regional accounts. The challenges
+        of developing this feture revolved around record security with
+        consideration of the territory hierarchy. There were tricky scenarios
+        given by the business like sharing and unsharing coaching sessions when
+        a sales agent moves to a new territory.
+      </p>
+    </lightning-accordion-section>
+    <lightning-accordion-section
+      name="C"
+      label="Depuy Sythese Community Cloud (June 2020 - Oct 2020)"
+    >
+      <p class="slds-p-vertical_small body-text">
+        Due to the circumstances of COVID-19, the vision sector team I was
+        supposed to serve on through 2020 cut back a bit. Luckily, I was able to
+        find work in Johnson and Johnson's. Medical Devices sector. The primary
+        Salesforce org for the sector has many name variations due to the many
+        applications on the platform itself. However, when I came onto the team
+        I was a part of a new initiative to create a Salesforce Community
+        intended to be used by all North America Medical Device employees. The
+        drive behind the project was to replace an exisiting technology (Drupal
+        site) with a new one (Salesforce), A common trend I started to notice at
+        this point.
+      </p>
+      <p class="slds-p-vertical_small body-text">
+        One of the exciting features that the community would offer out of the
+        box that they did not have prior was social engagemnt via Chatter. This
+        ability would allow users to ask questions, levae feedback, and
+        collaborate with others without having to do it through instant
+        messaging or email. The contentin the portal ranges, but one of the
+        primary content types is Surgical Techniques. The sales people within
+        the Medical Device sector are very unique. Not only are they selling
+        medicl devices, but are well-trained licensed surgeons themselves who
+        use this content to keep up on the latest updates to surgical techniques
+        realted to J&amp;J's wide array of medical devices. The community also
+        features Community Events which gives visibility to the various events
+        going on within the Medical Device sector and allows users to attend
+        them. Other minor features include a quick links tab that lets users see
+        a slew of helpful links, and filter them based off keywords.
+        Additionally, we leveraged public groups out of the box which allows
+        users to join groups based off their specific area of expertise which
+        can range from marketing teams to anatomical area experts.
+      </p>
+      <p class="slds-p-vertical_small body-text">
+        Most of the major challenges with the project centered around the
+        content management feature. While Salesforce offers a CMS solution, it
+        didn not meet the business requirements. We also considered using
+        Knowledge which does versioning as needed, but ran into limitations
+        around file size limits. Nothing absolutely captured all of the
+        requirements, but we found the most control in doint it with a custom
+        object. To expand on the requirements, the community has a persona
+        called super users; these super users are the ones that are allowed to
+        submit content to expose to the whole community. However, if the content
+        is something like a Surgical Technique, it needs to be submitted for
+        approval to a higher persona called a business admin. Thus, the trickery
+        came into creating this approval process, and sharing content with the
+        whole community when it is approved and unsharaing it when expired or
+        outdated.
+      </p>
+    </lightning-accordion-section>
+    <lightning-accordion-section
+      name="D"
+      label="Capital Selling CRM (Oct 2020 - Current)"
+    >
+      <p class="body-text">To be determined...</p>
+    </lightning-accordion-section>
+  </lightning-accordion>
+</template>
