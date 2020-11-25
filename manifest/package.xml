@@ -18,15 +18,26 @@
         <name>CustomLabel</name>
     </types>
     <types>
+        <members>Community_Contact_Form__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
         <members>Matthew_Doles</members>
         <name>CustomSite</name>
+    </types>
+    <types>
+        <members>Community_Contact_Form__c</members>
+        <name>CustomTab</name>
     </types>
     <types>
         <members>Matthew_Doles1</members>
         <name>ExperienceBundle</name>
     </types>
     <types>
+        <members>applicationSupportAnalyst</members>
         <members>communityFooter</members>
+        <members>contactForm</members>
+        <members>jjSalesforceDeveloper</members>
         <members>myEducation</members>
         <members>udemyCourseHeader</members>
         <name>LightningComponentBundle</name>
