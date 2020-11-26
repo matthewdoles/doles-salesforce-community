@@ -1,0 +1,3 @@
+<p>Name: {!Community_Contact_Form__c.Name__c}</p><br/>
+<p>Email: {!Community_Contact_Form__c.Email__c}</p><br/>
+<p>Message: {!Community_Contact_Form__c.Message__c}</p>
