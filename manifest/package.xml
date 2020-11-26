@@ -30,8 +30,16 @@
         <name>CustomTab</name>
     </types>
     <types>
+        <members>unfiled$public/New_Contact_Me_Email_Template</members>
+        <name>EmailTemplate</name>
+    </types>
+    <types>
         <members>Matthew_Doles1</members>
         <name>ExperienceBundle</name>
+    </types>
+    <types>
+        <members>Community_Contact_Form_Processing</members>
+        <name>Flow</name>
     </types>
     <types>
         <members>applicationSupportAnalyst</members>
@@ -57,6 +65,10 @@
         <members>HeaderImages</members>
         <members>UdemyCoursesImages</members>
         <name>StaticResource</name>
+    </types>
+    <types>
+        <members>Community_Contact_Form__c</members>
+        <name>Workflow</name>
     </types>
     <version>49.0</version>
 </Package>
