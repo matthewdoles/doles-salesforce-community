@@ -10,18 +10,6 @@
       "type": "region"
     },
     {
-      "components": [
-        {
-          "componentAttributes": {
-            "richTextValue": "<div style=\"text-align: center;\">Invalid Page</div>"
-          },
-          "componentName": "forceCommunity:richTextInline",
-          "id": "745caf32-2d2e-4822-9ce1-3ed85a6c0202",
-          "renderPriority": "NEUTRAL",
-          "renditionMap": {},
-          "type": "component"
-        }
-      ],
       "id": "a486cf18-f287-4f72-bbcb-d7ad01fbcb33",
       "regionName": "content",
       "type": "region"
