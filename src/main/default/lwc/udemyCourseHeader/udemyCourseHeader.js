@@ -28,6 +28,11 @@ export default class UdemyCourseHeader extends LightningElement {
         this.title =
           '<a href="https://www.udemy.com/course/the-complete-nodejs-developer-course-2/">The Complete Node.js Developer Course</a>';
         break;
+      case 'Node Scrapper':
+        this.image = UDEMY_IMAGES + '/node-scrapper-course.jpg';
+        this.title =
+          '<a href="https://www.udemy.com/course/nodejs-web-scraping/">Learn Web Scraping with NodeJs in 2020</a>';
+        break;
       case 'PD1':
         this.image = UDEMY_IMAGES + '/PD1-course.jpg';
         this.title =
