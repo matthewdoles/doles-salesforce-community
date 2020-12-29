@@ -1,0 +1,63 @@
+<template>
+  <lightning-accordion>
+    <lightning-accordion-section name="A" label="Operations Run Book">
+      <p class="slds-p-vertical_small body-text">
+        Key documentation for an application includes a Technical Design
+        Specifications (TDS) and an Operations Run Book (ORB). A TDS is created
+        by the BUILD team during development, and details the entire inner
+        workings and acrchitecture of an application. An ORB further details
+        information that may not be covered by a TDS such as points of failures,
+        impacted user communities, communication and resolution protocols for
+        outages, and comprehensive contact information. When I came onto the
+        team and started learning about supporting the cluster's applications, I
+        was pointed towards the application's corresponding ORB to learn more
+        about supporting any said application. However, we soon realized the
+        overall landscape of our cluster's ORBs was in a poor state. Thus, I was
+        put in charge of an effort to work with the various support teams to
+        help improve the quality of each application's ORB and bring them to our
+        baseline standards.
+      </p>
+    </lightning-accordion-section>
+    <lightning-accordion-section name="B" label="Aggrify">
+      <p class="slds-p-vertical_small body-text">
+        One of my favorite projects was enabling a service-level targeting tool
+        offered by another RUN team cluster (Data &amp; Analytics) called
+        Aggrify. This tool captures pertinent metadata about any jobs a
+        application may have. We enabled this tool specifically for Scheduled
+        Apex classes within our various Salesforce applications. With Aggrify
+        enabled, we could monitor for job success and failures, analyze the mean
+        time for a job to complete, and troubleshoot possible solutions to make
+        the job run more efficiently.
+      </p>
+    </lightning-accordion-section>
+    <lightning-accordion-section name="C" label="Knowledge Management">
+      <p class="slds-p-vertical_small body-text">
+        Whenever a incident ticket is resolved in IRIS, you are required to find
+        or create an appropriate Knowledge Article that details the steps taken
+        to resolve the issue in order to close the ticket. Over-time you build a
+        strong Knowledge Base, and steps to resolve repeated issues can be found
+        easily. However, over-time we have found that the vendor had cut
+        corners, and created lazy Knowledge Articles that have no sustenance
+        whatsoever, and only polluted the Knowledge Base. To help mitigate this
+        issue, our cluster created an audit process to randomly select various
+        Knowledge Articles created in the prior month and verify the quality of
+        their content. If a Knowledge Article does not meet the baseline
+        standards, we provided feedback to the original author and they were to
+        update it appropriately.
+      </p>
+    </lightning-accordion-section>
+    <lightning-accordion-section name="D" label="CopyStorm">
+      <p class="slds-p-vertical_small body-text">
+        CopyStorm is a suite of 3rd party tools offered by
+        <a href="https://www.capstorm.com/"> CapStorm</a> which allow you to
+        backup salesforce data and metadata, and restore it to any environment.
+        So, should an application have a major release go awry, you can restore
+        a production environment to a previous stable state with clean data. We
+        have started integrating our portfolio of applications with CopyStorm
+        since mid 2019. While this service is primarily supported by our vendor
+        (Cognizant), a co-worker and I have been involved in the process as an
+        learning experience.
+      </p>
+    </lightning-accordion-section>
+  </lightning-accordion>
+</template>

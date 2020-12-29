@@ -1,0 +1,32 @@
+<template
+  ><div
+    class="slds-align_absolute-center slds-p-bottom_medium contact-form-container"
+  >
+    <h3 class="slds-align_absolute-center contact-form-header">Contact Me</h3>
+    <lightning-record-edit-form
+      object-api-name="Community_Contact_Form__c"
+      onsuccess={handleSuccess}
+    >
+      <lightning-messages> </lightning-messages>
+      <lightning-input-field
+        variant="label-stacked"
+        field-name="Name__c"
+      ></lightning-input-field>
+      <lightning-input-field
+        variant="label-stacked"
+        field-name="Email__c"
+      ></lightning-input-field>
+      <lightning-input-field
+        variant="label-stacked"
+        field-name="Message__c"
+      ></lightning-input-field>
+      <lightning-button
+        class="slds-m-top_small slds-align_absolute-center"
+        type="submit"
+        label="Submit"
+        variant="brand"
+      >
+      </lightning-button>
+    </lightning-record-edit-form>
+  </div>
+</template>
