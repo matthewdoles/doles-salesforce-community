@@ -16,7 +16,7 @@
             "iconBackgroundColor": "rgb(255,255,255)",
             "iconSize": "medium",
             "noImageColor": "rgb(212, 212, 212)",
-            "overlay": "rgba(0, 0, 0, 0.4)",
+            "overlay": "rgba(47, 47, 47, 0.5)",
             "templateType": "full",
             "tileMenuEditor": "Default_Navigation",
             "titleColor": "",

@@ -412,8 +412,8 @@
           "components": [
             {
               "componentAttributes": {
-                "bgImage": "background: rgb(0,0,0) url(/sfsites/c/file-asset/floral?v=1) top center /cover",
-                "bgOverlayColor": "rgba(47, 47, 47, 0.47)",
+                "bgImage": "background: rgba(0,0,0,0.22) url(/sfsites/c/file-asset/floral?v=1) top center /cover",
+                "bgOverlayColor": "rgba(47, 47, 47, 0.75)",
                 "captionText": "Limited time offer",
                 "captionTextColor": "rgb(255, 255, 255)",
                 "captionTextShadowColor": "rgba(0, 0, 0, 0.5)",
@@ -439,7 +439,7 @@
                 "ctaShowBtnOne": false,
                 "ctaShowBtnTwo": false,
                 "fixedHeroWidth": true,
-                "heroHeight": 140,
+                "heroHeight": 110,
                 "heroWidth": 1440,
                 "showCaption": false,
                 "showSubtitle": true,
@@ -651,7 +651,7 @@
             {
               "componentAttributes": {
                 "bgImage": "background: rgb(0,0,0) url(/sfsites/c/file-asset/projects?v=1) top center /cover",
-                "bgOverlayColor": "rgba(0, 0, 0, 0.7)",
+                "bgOverlayColor": "rgba(0, 0, 0, 0.8)",
                 "captionText": "Limited time offer",
                 "captionTextColor": "rgb(255, 255, 255)",
                 "captionTextShadowColor": "rgba(0, 0, 0, 0.5)",
@@ -677,7 +677,7 @@
                 "ctaShowBtnOne": false,
                 "ctaShowBtnTwo": false,
                 "fixedHeroWidth": true,
-                "heroHeight": 100,
+                "heroHeight": 91,
                 "heroWidth": 1336,
                 "showCaption": false,
                 "showSubtitle": true,
@@ -889,7 +889,7 @@
             {
               "componentAttributes": {
                 "bgImage": "background: rgb(0,0,0) url(/sfsites/c/file-asset/experience?v=1) top center /cover",
-                "bgOverlayColor": "rgba(0, 0, 0, 0.55)",
+                "bgOverlayColor": "rgba(47, 47, 47, 0.75)",
                 "captionText": "Limited time offer",
                 "captionTextColor": "rgb(255, 255, 255)",
                 "captionTextShadowColor": "rgba(0, 0, 0, 0.5)",
@@ -1365,7 +1365,7 @@
             {
               "componentAttributes": {
                 "bgImage": "background: rgb(0,0,0) url(/sfsites/c/file-asset/usfsm?v=1) center center /cover",
-                "bgOverlayColor": "rgba(0, 0, 0, 0.65)",
+                "bgOverlayColor": "rgba(47, 47, 47, 0.66)",
                 "captionText": "Limited time offer",
                 "captionTextColor": "rgb(255, 255, 255)",
                 "captionTextShadowColor": "rgba(0, 0, 0, 0.5)",
