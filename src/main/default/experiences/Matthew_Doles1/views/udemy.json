@@ -202,6 +202,26 @@
           "renderPriority": "NEUTRAL",
           "renditionMap": {},
           "type": "component"
+        },
+        {
+          "componentAttributes": {
+            "course": "Node Scrapper"
+          },
+          "componentName": "c:udemyCourseHeader",
+          "id": "2c193a7b-65df-4e04-87c3-df03f2346daa",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
+        {
+          "componentAttributes": {
+            "richTextValue": "<p><b style=\"font-size: 16px;\">Instructor:</b><span style=\"font-size: 16px;\"> Grohs Fabian</span></p><p><b style=\"font-size: 16px;\">Completed:</b><span style=\"font-size: 16px;\"> December 2020</span></p><p><b style=\"font-size: 16px;\">Review: </b><span style=\"font-size: 16px;\">There is really no rhyme or reason for why I took this course other than it sounded cool. At Johnson and Johnson the testing team had started getting into test automation via a Python framework called Robot. Having peeked at some of their scripts, it was cool to see them run test executions and gather their test evidence with a single click of a button. Of course, the initial time of investment to get a project setup with the testing framework is considerable but overall has great long term benefits. This foray into scraping with NodeJs provided me an introduction into the world of automation, especially with the power of Puppeteer. Overall the course was good and provides some good core concepts. However, due to the evolving nature of technology, some of the example sites that he scrapes throughout the course have since changed. For instance, Twitter seemingly used to have a PHP frontend at the time of recording, but now they are using React. Such a change has made most of the content regarding Twitter obsolete. </span></p><p><b style=\"background-color: transparent; color: var(--lwc-colorTextDefault,rgba(0, 0, 0, 0.8)); font-size: 16px;\">My follow along code: </b><a href=\"https://github.com/matthewdoles/node-scrapper-tutorial\" target=\"_blank\" style=\"font-size: 16px;\">https://github.com/matthewdoles/node-scrapper-tutorial</a></p><p><a href=\"https://github.com/matthewdoles/node-scrapper-tutorial\" target=\"_blank\" style=\"font-size: 16px;\">&nbsp;</a></p>"
+          },
+          "componentName": "forceCommunity:richTextInline",
+          "id": "0356a11e-7550-4c22-80f8-5d42bb29b926",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
         }
       ],
       "id": "5ff34504-1988-4790-8510-5f10f79b9b5e",
