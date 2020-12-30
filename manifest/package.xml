@@ -63,6 +63,7 @@
     <types>
         <members>FooterImages</members>
         <members>HeaderImages</members>
+        <members>SalesforceCertificationsImages</members>
         <members>UdemyCoursesImages</members>
         <name>StaticResource</name>
     </types>

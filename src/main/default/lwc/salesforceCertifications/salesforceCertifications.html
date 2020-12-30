@@ -1,0 +1,23 @@
+<template>
+  <div class="slds-p-vertical_medium">
+    <h1 class="slds-text-heading_large slds-align_absolute-center">
+      Certifications
+    </h1>
+  </div>
+  <div style="width: 80%" class="slds-align_absolute-center">
+    <lightning-layout multiple-rows>
+      <template for:each={images} for:item="image">
+        <lightning-layout-item
+          key={image.id}
+          size="12"
+          small-device-size="6"
+          medium-device-size="4"
+          large-device-size="3"
+          padding="around-small"
+        >
+          <img src={image.url} class="header-img" />
+        </lightning-layout-item>
+      </template>
+    </lightning-layout>
+  </div>
+</template>

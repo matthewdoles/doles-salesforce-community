@@ -70,6 +70,14 @@
           "renderPriority": "NEUTRAL",
           "renditionMap": {},
           "type": "component"
+        },
+        {
+          "componentAttributes": {},
+          "componentName": "c:salesforceCertifications",
+          "id": "31b2ec88-56d3-4e53-89d6-26cc84a80a35",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
         }
       ],
       "id": "f29ef067-f56d-4ccd-bc9a-c2081b631890",
