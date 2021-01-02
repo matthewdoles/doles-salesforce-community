@@ -5,6 +5,7 @@
     <h3 class="slds-align_absolute-center contact-form-header">Contact Me</h3>
     <lightning-record-edit-form
       object-api-name="Community_Contact_Form__c"
+      onsubmit={handleSubmit}
       onsuccess={handleSuccess}
     >
       <lightning-messages> </lightning-messages>
