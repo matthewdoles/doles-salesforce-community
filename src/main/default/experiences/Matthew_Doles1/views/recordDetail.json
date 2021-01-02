@@ -10,36 +10,6 @@
       "type": "region"
     },
     {
-      "components": [
-        {
-          "componentAttributes": {
-            "recordId": "{!recordId}"
-          },
-          "componentName": "forceCommunity:recordHeadline",
-          "id": "9cb36ec2-d20b-4c02-badb-89fbbb2294e0",
-          "renderPriority": "NEUTRAL",
-          "renditionMap": {},
-          "type": "component"
-        },
-        {
-          "componentAttributes": {
-            "detailsTabLabel": "Details",
-            "discussionsTabLabel": "Feed",
-            "recordId": "{!recordId}",
-            "relatedTabLabel": "Related",
-            "tab1Type": "details",
-            "tab2Type": "related",
-            "tab3Type": "chatter",
-            "tab4Type": "none",
-            "timelineTabLabel": "Activity"
-          },
-          "componentName": "forceCommunity:recordHomeTabs",
-          "id": "75db9319-238e-4b47-acc1-ee5092dd9762",
-          "renderPriority": "NEUTRAL",
-          "renditionMap": {},
-          "type": "component"
-        }
-      ],
       "id": "e4648fab-885c-4ad9-8552-df8462482d5f",
       "regionName": "content",
       "type": "region"
