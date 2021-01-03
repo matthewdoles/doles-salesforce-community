@@ -24,3 +24,27 @@ One of the fun and new areas I explored as a part of this project was setting up
 Using the [Continuous Integration Using Salesforce DX](https://trailhead.salesforce.com/content/learn/modules/sfdx_travis_ci) Trailhead module as guidance, I was able to configure my own build. Looking at the [.travis.yml](./.travis.yml) file, you can see the first thing the build does is create our certificates, install sfdx-cli, and then authenticate with my Salesforce org. After that, the script then uses sfdx to create a scratch org, create a community with the correct parameters in the newly created scratch org, deploy metadata, run tests, then cleanup by deleting the scratch org.
 
 For this build to work with other envrionments the steps involving authentication would need some reconfiguring. However, one could pull down this repo and deploy my community to their own scratch org following just the sfdx commands. Thus, the Travis CI build is validating that the community is in a packagable state.
+
+#### Contact Form
+
+On the community's home page is a Contact Form that any visitors are welcomed to fill out to get in contact with me. This was a neat feature I was able to add that wasn't possible on my previous static HTML website.
+
+For the feature I setuped a new custom object ([Community_Contact_Form\_\_c](src/main/default/objects/Community_Contact_Form__c/Community_Contact_Form__c.object-meta.xml)) and opened up permissions to public/read write to grant external users/visitors access. The component itself is a custom built LWC ([contactForm](src/main/default/lwc/contactForm)) which utilizes the [lightning-record-edit-form](https://developer.salesforce.com/docs/component-library/bundle/lightning-record-edit-form/documentation) component. I was also able to introduce some automation by setting up a simple process builder ([Community_Contact_Form_Processing](src/main/default/flows/Community_Contact_Form_Processing.flow-meta.xml)) that forwards new submissions to me using the [New_Contact_Me_Email_Template](src/main/default/email/unfiled$public/New_Contact_Me_Email_Template.email) email template.
+
+#### Pages
+
+##### Home
+
+- Tile Menu component pointing at the default navigation menu ([Default_Navigation.navigationMenu-meta.xml](src/main/default/navigationMenus/Default_Navigation.navigationMenu-meta.xml)). A nice out of the box grid menu that oultines the community's content.
+- 'Who am I?' rich content editor. A simple about me section which details some non-resume/personal things about me.
+- Contact form allowing guest users to contact me. See [Contact Form](####contact-form) section for more information.
+
+##### Experience
+
+##### Salesforce
+
+##### Projects
+
+##### Education
+
+- [myEducation](src/main/default/lwc/myEducation). Custom built LWC to display information related to my education. Applies mobile specific CSS to better display and wrap the header content.
