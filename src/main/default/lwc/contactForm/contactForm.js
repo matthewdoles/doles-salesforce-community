@@ -2,6 +2,12 @@ import { LightningElement } from 'lwc';
 import { ShowToastEvent } from 'lightning/platformShowToastEvent';
 
 export default class ContactForm extends LightningElement {
+  handleSubmit(event) {
+    event.preventDefault();
+    this.template
+      .querySelector('lightning-record-edit-form')
+      .submit(event.detail.fields);
+  }
   handleSuccess() {
     const inputFields = this.template.querySelectorAll('lightning-input-field');
     if (inputFields) {
