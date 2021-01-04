@@ -41,10 +41,23 @@ For the feature I setuped a new custom object ([Community_Contact_Form\_\_c](src
 
 ##### Experience
 
+- [contentHeader](src/main/default/lwc/contentHeader). Each section uses this custom built LWC header. When the component is placed into the builder the component takes a 'Content Title' parameter which is used to display the correct image and title.
+- There are two other LWCs on the page: [jjSalesforceDeveloper](src/main/default/lwc/jjSalesforceDeveloper) and [applicationSupportAnalyst](src/main/default/lwc/applicationSupportAnalyst). Details on projects I have worked on in each role were put into LWCs to utilize the [lightning-accordion](https://developer.salesforce.com/docs/component-library/bundle/lightning:accordion) component to help save on page space. All other page details/content is using the out of the box rich content editor.
+
 ##### Salesforce
 
+- [contentHeader](src/main/default/lwc/contentHeader). Each section uses this custom built LWC header. When the component is placed into the builder the component takes a 'Content Title' parameter which is used to display the correct image and title.
+- All text content is stored in rich content editors.
+- [salesforceCertifications](src/main/default/lwc/salesforceCertifications). Displays the current Salesforce Certifications I hold. Leveraging the [lightning-layout](https://developer.salesforce.com/docs/component-library/bundle/lightning-layout) component to apply dynamic sizes to different device sizes.
+
 ##### Projects
+
+- Tile Menu component pointing at the project navigation menu ([Project_Navigation_Menu.navigationMenu-meta](src/main/default/navigationMenus/Project_Navigation_Menu.navigationMenu-meta)). Each project is given its own unqie page to utilize the out of the box Tile Menu.
 
 ##### Education
 
 - [myEducation](src/main/default/lwc/myEducation). Custom built LWC to display information related to my education. Applies mobile specific CSS to better display and wrap the header content.
+
+##### All Pages
+
+- [communityFooter](src/main/default/lwc/communityFooter). Custom built LWC to display my contact and profile information on every page footer. Applies mobile specific CSS to change from inline-flex (row) to block (column).
