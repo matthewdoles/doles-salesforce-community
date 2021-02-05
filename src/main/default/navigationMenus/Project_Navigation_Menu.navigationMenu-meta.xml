@@ -24,11 +24,21 @@
         <type>InternalLink</type>
     </navigationMenuItem>
     <navigationMenuItem>
+        <label>Baseball Affiliates</label>
+        <menuItemBranding>
+            <tileImage>baseball</tileImage>
+        </menuItemBranding>
+        <position>3</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <target>/baseball-affiliates</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
         <label>JSforce Patterns</label>
         <menuItemBranding>
             <tileImage>jsforcelogo</tileImage>
         </menuItemBranding>
-        <position>3</position>
+        <position>4</position>
         <publiclyAvailable>true</publiclyAvailable>
         <target>/jsforce-patterns</target>
         <type>InternalLink</type>
@@ -38,7 +48,7 @@
         <menuItemBranding>
             <tileImage>jest2</tileImage>
         </menuItemBranding>
-        <position>4</position>
+        <position>5</position>
         <publiclyAvailable>true</publiclyAvailable>
         <target>/jest-lwc</target>
         <type>InternalLink</type>
@@ -48,7 +58,7 @@
         <menuItemBranding>
             <tileImage>hoppedupnetwork</tileImage>
         </menuItemBranding>
-        <position>5</position>
+        <position>6</position>
         <publiclyAvailable>true</publiclyAvailable>
         <target>/hopped-up-network</target>
         <type>InternalLink</type>
@@ -58,7 +68,7 @@
         <menuItemBranding>
             <tileImage>udemy</tileImage>
         </menuItemBranding>
-        <position>6</position>
+        <position>7</position>
         <publiclyAvailable>true</publiclyAvailable>
         <target>/udemy</target>
         <type>InternalLink</type>
