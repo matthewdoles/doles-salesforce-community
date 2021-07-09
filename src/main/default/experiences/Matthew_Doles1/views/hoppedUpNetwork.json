@@ -47,8 +47,8 @@
       "components": [
         {
           "componentAttributes": {
+            "customHeadTags": "",
             "description": "",
-            "metaTags": "",
             "title": "Hopped Up Network"
           },
           "componentName": "forceCommunity:seoAssistant",

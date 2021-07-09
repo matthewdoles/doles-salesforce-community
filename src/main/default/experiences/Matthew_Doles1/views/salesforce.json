@@ -93,8 +93,8 @@
       "components": [
         {
           "componentAttributes": {
+            "customHeadTags": "",
             "description": "",
-            "metaTags": "",
             "title": "Salesforce"
           },
           "componentName": "forceCommunity:seoAssistant",

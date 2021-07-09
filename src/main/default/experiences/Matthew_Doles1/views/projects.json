@@ -48,8 +48,8 @@
       "components": [
         {
           "componentAttributes": {
+            "customHeadTags": "",
             "description": "",
-            "metaTags": "",
             "title": "Projects"
           },
           "componentName": "forceCommunity:seoAssistant",

@@ -237,8 +237,8 @@
       "components": [
         {
           "componentAttributes": {
+            "customHeadTags": "",
             "description": "",
-            "metaTags": "",
             "title": "Udemy"
           },
           "componentName": "forceCommunity:seoAssistant",

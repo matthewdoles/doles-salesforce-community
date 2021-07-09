@@ -10,6 +10,7 @@
     "Inner": "0d085514-1cdc-429a-af71-18a55a3097aa",
     "Login": "d6f5570c-4bc2-4a9e-b648-e0bd7633c393",
     "MfWQykNEdnGByKQWXHJYEkB9YLh2MQ": "f90d62b7-3e9f-4b13-91ff-cc81d8125ea2",
+    "ServiceNotAvailable": "b442f9bb-e60b-4d5c-9be6-9be3f40e5b8c",
     "ZlSX501OGSGx1tGUJzEwPcoMwn4Yth": "9b14f57d-b082-49c2-b091-1526c8814d31",
     "eUAdC6huiSJLF5YnINgMBtsRTwGCGb": "e545babd-2dce-4c56-8414-5ca7c68aa733"
   },
@@ -1461,6 +1462,33 @@
             }
           ],
           "id": "5a527839-6ab2-4afb-b7c5-c4952db85696",
+          "regionName": "themeFooter",
+          "type": "region"
+        }
+      ],
+      "type": "view"
+    },
+    {
+      "componentAttributes": {
+        "fixedPageWidth": 1170,
+        "headerBgColor": "rgba(0, 0, 0, 0)",
+        "isHeaderPinned": false,
+        "isHeroUnderHeader": false,
+        "isPageWidthFixed": true,
+        "showHeader": true,
+        "showHero": true
+      },
+      "componentName": "siteforce:themeLayoutStarter",
+      "id": "b442f9bb-e60b-4d5c-9be6-9be3f40e5b8c",
+      "label": "ServiceNotAvailable",
+      "regions": [
+        {
+          "id": "14211d11-300d-4147-aa49-684eeba89e50",
+          "regionName": "themeHeader",
+          "type": "region"
+        },
+        {
+          "id": "88fc64d8-bc7a-4fca-8309-7a426fb7ec14",
           "regionName": "themeFooter",
           "type": "region"
         }

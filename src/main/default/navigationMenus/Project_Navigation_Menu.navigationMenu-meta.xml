@@ -29,7 +29,7 @@
             <tileImage>baseball</tileImage>
         </menuItemBranding>
         <position>3</position>
-        <publiclyAvailable>false</publiclyAvailable>
+        <publiclyAvailable>true</publiclyAvailable>
         <target>/baseball-affiliates</target>
         <type>InternalLink</type>
     </navigationMenuItem>

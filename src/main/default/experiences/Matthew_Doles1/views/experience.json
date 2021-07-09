@@ -18,7 +18,17 @@
         },
         {
           "componentAttributes": {
-            "richTextValue": "<h2><b>Salesforce Developer (Contract)</b></h2><h4><b>Nov 2019 - Current</b></h4><p><br></p><p><span style=\"font-size: 16px;\">During my first year of working for Johnson and Johnson as an Application Support Analyst, I started making the right connections and worked my way into a postion as a Salesforce Developer. Johnson and Johnson boasts a healthy portfolio of Salesforce instances. Thus, the great opportunity about working for them is that there are a wide array of projects to get into within the various sectors of J&amp;J. However, the responsibilities and day-to-day work does not vary wildy as most project teams work in an agile framework to deliver business requested features within a given iteration. While being a good developer is helpful, J&amp;J also places great value in effective communication. This can range from the abilty to relay roadblocks in current devlopment during standup, contributing to the technical design of a story in refinement, or framing demos appropriately to a non-technical audience. I have developed and continue to grow these skills having served on the following projects:</span></p>"
+            "richTextValue": "<h2><br></h2>"
+          },
+          "componentName": "forceCommunity:richTextInline",
+          "id": "e9a16ed4-53b9-4fc2-bd52-a7df9e5902d4",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
+        {
+          "componentAttributes": {
+            "richTextValue": "<h2><b>Senior Salesforce Developer</b></h2><h4><b>July 2021 - Current</b></h4><p><br></p><h2><b>Salesforce Developer (Contract)</b></h2><h4><b>Nov 2019 - June 2021</b></h4><p><br></p><p><span style=\"font-size: 16px;\">During my first year of working for Johnson and Johnson as an Application Support Analyst, I started making the right connections and worked my way into a postion as a Salesforce Developer. This position intially started on contract until a permanent position became avaialbe. Although COVID-19 delayed that process quite a bit in 2020, I eventually transitioned into a Senior Salesforce Developer position by July of 2021. </span></p><p><br></p><p><span style=\"font-size: 16px;\">﻿Johnson and Johnson boasts a healthy portfolio of Salesforce instances. Thus, the great opportunity about working for them is that there are a wide array of projects to get into within the various sectors of J&amp;J. However, the responsibilities and day-to-day work does not vary wildy as most project teams work in an agile framework to deliver business requested features within a given iteration. While being a good developer is helpful, J&amp;J also places great value in effective communication. This can range from the abilty to relay roadblocks in current devlopment during standup, contributing to the technical design of a story in refinement, or framing demos appropriately to a non-technical audience. I have developed and continue to grow these skills having served on the following projects:</span></p>"
           },
           "componentName": "forceCommunity:richTextInline",
           "id": "07db7386-238e-4a32-a116-fcd9549c72e3",
@@ -91,8 +101,8 @@
       "components": [
         {
           "componentAttributes": {
+            "customHeadTags": "",
             "description": "",
-            "metaTags": "",
             "title": "Experience"
           },
           "componentName": "forceCommunity:seoAssistant",
