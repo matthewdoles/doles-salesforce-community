@@ -8,7 +8,7 @@
       "components": [
         {
           "componentAttributes": {
-            "richTextValue": "<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" src=\"{!contentAsset.pokedex.1}\" alt=\"\" style=\"width: 184.297px; height: 184.297px;\"></p>"
+            "richTextValue": "<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" src=\"{!contentAsset.pokedex1.1}\" alt=\"\" style=\"width: 215.031px; height: 215.031px;\"></p>"
           },
           "componentName": "forceCommunity:richTextInline",
           "id": "41511eca-0087-4bb6-8742-ced405c084aa",
@@ -22,6 +22,18 @@
       "type": "region"
     },
     {
+      "components": [
+        {
+          "componentAttributes": {
+            "richTextValue": "<h2 style=\"text-align: center;\">SvelteKit Pokedex</h2><p><br></p><p><span style=\"font-size: 16px;\">This application is the follow along code for James Q Quick's tutorial video</span><b style=\"font-size: 16px;\">&nbsp;</b><a href=\"https://www.youtube.com/watch?v=UU7MgYIbtAk&amp;t=125s\" rel=\"noopener noreferrer\" target=\"null\" style=\"font-size: 16px; background-color: rgb(255, 255, 255);\"><b>SvelteKit Crash Course - SSR, API Routes, Stores, Tailwind CSS, and More</b>!</a> <span style=\"font-size: 16px;\">Having recently finished a Svelte tutorial which covered Sapper, I began investigating projects, templates, setups, etc. to start creating my own projects and soon found out that SvelteKit had come into popularity as an official replacement for Sapper. Thus, I did this tutorial to familarize myself with SvelteKit. </span></p><p><br></p><p><span style=\"font-size: 16px;\">So although the project itself is not entirely of my own creation, I took the opportunity to explore deployment options as well for future reference. I found the most popular option to be Vercel, where even </span><a href=\"https://vercel.com/blog/vercel-welcomes-rich-harris-creator-of-svelte\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px;\"><b>the creator of Svelte has joined their team</b></a><span style=\"font-size: 16px;\"> to effectively make it the unofficial choice for hosting and deploying Svelte projects. And I must say, after figuring out the inital setup - they do make it a cinch to get your project up and out there. This tutorial also taught me about </span><a href=\"https://tailwindcss.com/\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px;\"><b>Tailwind CSS </b></a><span style=\"font-size: 16px;\">which is one of the most thorough CSS frameworks I have worked with and may become the go to preference going forward. On top of Tailwind, I found a great component library built on top of Tailwind CSS called </span><a href=\"https://daisyui.com/\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px;\"><b>daisyUI</b></a><span style=\"font-size: 16px;\">. Not only does it provide components, but the two packages combines also provide the ability to setup your own theme and style your website with primary and accent colors easily. </span></p><p><br></p><p><span style=\"font-size: 16px;\">Application:</span><b style=\"font-size: 16px;\">&nbsp;</b><a href=\"https://sveltekit-pokedex-ashen.vercel.app/\" rel=\"noopener noreferrer\" target=\"null\" style=\"font-size: 16px;\"><b>https://sveltekit-pokedex-ashen.vercel.app/</b></a></p><p><span style=\"font-size: 16px;\">API:</span><b style=\"font-size: 16px;\">&nbsp;</b><a href=\"https://sveltekit-pokedex-ashen.vercel.app/api/pokemon\" rel=\"noopener noreferrer\" target=\"null\" style=\"font-size: 16px;\"><b>https://sveltekit-pokedex-ashen.vercel.app/api/pokemon</b></a></p><p><span style=\"font-size: 16px;\">Repository:</span><b style=\"font-size: 16px;\">&nbsp;</b><a href=\"https://github.com/matthewdoles/sveltekit-pokedex\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px;\"><b>https://github.com/matthewdoles/sveltekit-pokedex</b></a></p><p><br></p><p><br></p><p><br></p><p>&nbsp;</p>"
+          },
+          "componentName": "forceCommunity:richTextInline",
+          "id": "97003fa7-7bee-4c9e-832f-48abcbe9df6f",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
       "id": "37c880ff-09c9-4710-966f-bbffb04a3ef3",
       "regionName": "content",
       "type": "region"

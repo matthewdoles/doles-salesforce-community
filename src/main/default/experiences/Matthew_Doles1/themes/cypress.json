@@ -1127,7 +1127,7 @@
           "components": [
             {
               "componentAttributes": {
-                "bgImage": "background: rgb(0,0,0) url(/sfsites/c/file-asset/salesforce?v=1) top center repeat-x",
+                "bgImage": "background: rgb(0,0,0) url(/sfsites/c/file-asset/salesforce?v=1) top center /cover",
                 "bgOverlayColor": "rgba(0, 0, 0, 0)",
                 "captionText": "Limited time offer",
                 "captionTextColor": "rgb(255, 255, 255)",
