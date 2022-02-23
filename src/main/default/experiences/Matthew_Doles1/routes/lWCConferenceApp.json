@@ -1,0 +1,10 @@
+{
+  "activeViewId": "13ffbe2f-34e5-4819-bddc-a102b008b4b8",
+  "appPageId": "bc7511ba-0fce-40eb-b7e3-1ebb0d62c409",
+  "id": "709f7937-c105-4118-814a-cc396df41673",
+  "label": "LWC Conference App",
+  "pageAccess": "UseParent",
+  "routeType": "custom-lwc-conference-app",
+  "type": "route",
+  "urlPrefix": "lwc-conference-app"
+}

@@ -1,0 +1,56 @@
+{
+  "appPageId": "bc7511ba-0fce-40eb-b7e3-1ebb0d62c409",
+  "componentName": "siteforce:sldsOneColLayout",
+  "id": "b29d157b-803f-43d3-8de8-b8a33f6f263d",
+  "label": "Wordle With Friends",
+  "regions": [
+    {
+      "components": [
+        {
+          "componentAttributes": {
+            "richTextValue": "<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" src=\"{!contentAsset.worldewithfriends.1}\" alt=\"\" style=\"width: 139.188px; height: 139.188px;\"></p>"
+          },
+          "componentName": "forceCommunity:richTextInline",
+          "id": "71cc940d-5ba4-43b2-b158-4199fcc38d1c",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
+      "id": "43cfb4fa-e3db-41c3-a55e-08d03b361198",
+      "regionName": "header",
+      "type": "region"
+    },
+    {
+      "id": "127d3fc8-f469-49eb-aa82-0dd0016cd41c",
+      "regionName": "content",
+      "type": "region"
+    },
+    {
+      "id": "d87cddcf-41b0-46b4-8e96-3440ea507723",
+      "regionName": "footer",
+      "type": "region"
+    },
+    {
+      "components": [
+        {
+          "componentAttributes": {
+            "customHeadTags": "",
+            "description": "",
+            "title": "Wordle With Friends"
+          },
+          "componentName": "forceCommunity:seoAssistant",
+          "id": "25b3e4e9-5dc8-4dd0-8618-215a346d3288",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
+      "id": "1010f023-92d2-4493-8e6f-629d8dcfb67f",
+      "regionName": "sfdcHiddenRegion",
+      "type": "region"
+    }
+  ],
+  "themeLayoutType": "Inner",
+  "type": "view",
+  "viewType": "custom-wordle-with-friends"
+}

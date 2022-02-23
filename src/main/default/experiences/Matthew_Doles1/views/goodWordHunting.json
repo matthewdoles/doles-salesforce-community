@@ -1,0 +1,56 @@
+{
+  "appPageId": "bc7511ba-0fce-40eb-b7e3-1ebb0d62c409",
+  "componentName": "siteforce:sldsOneColLayout",
+  "id": "d3f09b20-781f-4b06-8195-11c4c2def22b",
+  "label": "Good Word Hunting",
+  "regions": [
+    {
+      "components": [
+        {
+          "componentAttributes": {
+            "richTextValue": "<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.goodwordhunting.1}\" style=\"width: 207.016px; height: 207.016px;\"></p>"
+          },
+          "componentName": "forceCommunity:richTextInline",
+          "id": "b5501bc2-1987-4eb4-824c-7eda7fab058d",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
+      "id": "d21e5f90-ef20-4ab8-8373-84a8c64dea7a",
+      "regionName": "header",
+      "type": "region"
+    },
+    {
+      "id": "5bf5e0bf-bd4c-4c38-9ccb-3f0441b40410",
+      "regionName": "content",
+      "type": "region"
+    },
+    {
+      "id": "f1e00e29-24e8-4718-b5e2-5ce50b5800ad",
+      "regionName": "footer",
+      "type": "region"
+    },
+    {
+      "components": [
+        {
+          "componentAttributes": {
+            "customHeadTags": "",
+            "description": "",
+            "title": "Good Word Hunting"
+          },
+          "componentName": "forceCommunity:seoAssistant",
+          "id": "c6816150-b279-4422-8427-715e4af8bcd1",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
+      "id": "61cca1b3-cfe4-4896-a35d-3f1bc2050bb0",
+      "regionName": "sfdcHiddenRegion",
+      "type": "region"
+    }
+  ],
+  "themeLayoutType": "Inner",
+  "type": "view",
+  "viewType": "custom-good-word-hunting"
+}

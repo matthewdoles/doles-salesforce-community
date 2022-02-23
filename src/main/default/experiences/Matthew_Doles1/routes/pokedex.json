@@ -1,0 +1,10 @@
+{
+  "activeViewId": "2f3540ee-adfa-4533-a2dd-dd660fe73185",
+  "appPageId": "bc7511ba-0fce-40eb-b7e3-1ebb0d62c409",
+  "id": "b29dca94-8d17-4ef9-8e24-86e31fdd8625",
+  "label": "Pokedex",
+  "pageAccess": "UseParent",
+  "routeType": "custom-pokedex",
+  "type": "route",
+  "urlPrefix": "pokedex"
+}

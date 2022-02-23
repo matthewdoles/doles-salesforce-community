@@ -1,0 +1,56 @@
+{
+  "appPageId": "bc7511ba-0fce-40eb-b7e3-1ebb0d62c409",
+  "componentName": "siteforce:sldsOneColLayout",
+  "id": "2f3540ee-adfa-4533-a2dd-dd660fe73185",
+  "label": "Pokedex",
+  "regions": [
+    {
+      "components": [
+        {
+          "componentAttributes": {
+            "richTextValue": "<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" src=\"{!contentAsset.pokedex.1}\" alt=\"\" style=\"width: 184.297px; height: 184.297px;\"></p>"
+          },
+          "componentName": "forceCommunity:richTextInline",
+          "id": "41511eca-0087-4bb6-8742-ced405c084aa",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
+      "id": "7f10cedf-6475-431b-958f-d2a98781d260",
+      "regionName": "header",
+      "type": "region"
+    },
+    {
+      "id": "37c880ff-09c9-4710-966f-bbffb04a3ef3",
+      "regionName": "content",
+      "type": "region"
+    },
+    {
+      "id": "a93667af-7626-4b50-90eb-792466df21b8",
+      "regionName": "footer",
+      "type": "region"
+    },
+    {
+      "components": [
+        {
+          "componentAttributes": {
+            "customHeadTags": "",
+            "description": "",
+            "title": "Pokedex"
+          },
+          "componentName": "forceCommunity:seoAssistant",
+          "id": "27770de4-fe19-4258-acda-166cbbe56ba8",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
+      "id": "a8e87949-ccec-4845-8bf4-c1ff9ff71f7f",
+      "regionName": "sfdcHiddenRegion",
+      "type": "region"
+    }
+  ],
+  "themeLayoutType": "Inner",
+  "type": "view",
+  "viewType": "custom-pokedex"
+}

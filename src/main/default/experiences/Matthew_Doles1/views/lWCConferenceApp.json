@@ -1,0 +1,56 @@
+{
+  "appPageId": "bc7511ba-0fce-40eb-b7e3-1ebb0d62c409",
+  "componentName": "siteforce:sldsOneColLayout",
+  "id": "13ffbe2f-34e5-4819-bddc-a102b008b4b8",
+  "label": "LWC Conference App",
+  "regions": [
+    {
+      "components": [
+        {
+          "componentAttributes": {
+            "richTextValue": "<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" src=\"{!contentAsset.lwcconferenceapp.1}\" alt=\"\" style=\"width: 166.234px; height: 166.234px;\"></p>"
+          },
+          "componentName": "forceCommunity:richTextInline",
+          "id": "a594b756-1f93-482b-bd2f-8168792fea43",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
+      "id": "903fb685-8b66-4b9a-8c95-b084281e0449",
+      "regionName": "header",
+      "type": "region"
+    },
+    {
+      "id": "dd77da2e-b3c5-44df-880a-76b4224eb1a2",
+      "regionName": "content",
+      "type": "region"
+    },
+    {
+      "id": "7d5596ea-afd5-42c5-8684-bb9e988707db",
+      "regionName": "footer",
+      "type": "region"
+    },
+    {
+      "components": [
+        {
+          "componentAttributes": {
+            "customHeadTags": "",
+            "description": "",
+            "title": "LWC Conference App"
+          },
+          "componentName": "forceCommunity:seoAssistant",
+          "id": "b9ef5385-61cd-4550-963e-6a116975ef50",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
+      "id": "50e18896-cae9-4148-b6aa-4da9433a3fb5",
+      "regionName": "sfdcHiddenRegion",
+      "type": "region"
+    }
+  ],
+  "themeLayoutType": "Inner",
+  "type": "view",
+  "viewType": "custom-lwc-conference-app"
+}

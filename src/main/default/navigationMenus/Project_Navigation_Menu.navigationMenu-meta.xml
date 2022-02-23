@@ -4,11 +4,91 @@
     <containerType>Network</containerType>
     <label>Project Navigation Menu</label>
     <navigationMenuItem>
+        <label>Baseball Affiliates</label>
+        <menuItemBranding>
+            <tileImage>baseball</tileImage>
+        </menuItemBranding>
+        <position>1</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>/baseball-affiliates</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Good Word Hunting</label>
+        <menuItemBranding>
+            <tileImage>goodwordhunting</tileImage>
+        </menuItemBranding>
+        <position>2</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>/good-word-hunting</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Hopped Up Network</label>
+        <menuItemBranding>
+            <tileImage>hoppedupnetwork</tileImage>
+        </menuItemBranding>
+        <position>3</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>/hopped-up-network</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Jest &amp; LWC</label>
+        <menuItemBranding>
+            <tileImage>jest2</tileImage>
+        </menuItemBranding>
+        <position>4</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>/jest-lwc</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>JSforce Patterns</label>
+        <menuItemBranding>
+            <tileImage>jsforcelogo</tileImage>
+        </menuItemBranding>
+        <position>5</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>/jsforce-patterns</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>LWC Conference App</label>
+        <menuItemBranding>
+            <tileImage>lwcconferenceapp</tileImage>
+        </menuItemBranding>
+        <position>6</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>/lwc-conference-app</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Pokedex</label>
+        <menuItemBranding>
+            <tileImage>pokedex</tileImage>
+        </menuItemBranding>
+        <position>7</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>/pokedex</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Udemy</label>
+        <menuItemBranding>
+            <tileImage>udemy</tileImage>
+        </menuItemBranding>
+        <position>8</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>/udemy</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
         <label>Vigilant</label>
         <menuItemBranding>
             <tileImage>VigilantAppLogo</tileImage>
         </menuItemBranding>
-        <position>1</position>
+        <position>9</position>
         <publiclyAvailable>true</publiclyAvailable>
         <target>/vigilant</target>
         <type>InternalLink</type>
@@ -18,59 +98,19 @@
         <menuItemBranding>
             <tileImage>whosetaglineisitanyway</tileImage>
         </menuItemBranding>
-        <position>2</position>
+        <position>10</position>
         <publiclyAvailable>true</publiclyAvailable>
         <target>/whose-tagline-is-it-anyway</target>
         <type>InternalLink</type>
     </navigationMenuItem>
     <navigationMenuItem>
-        <label>Baseball Affiliates</label>
+        <label>Wordle With Friends</label>
         <menuItemBranding>
-            <tileImage>baseball</tileImage>
+            <tileImage>worldewithfriends</tileImage>
         </menuItemBranding>
-        <position>3</position>
+        <position>11</position>
         <publiclyAvailable>true</publiclyAvailable>
-        <target>/baseball-affiliates</target>
-        <type>InternalLink</type>
-    </navigationMenuItem>
-    <navigationMenuItem>
-        <label>JSforce Patterns</label>
-        <menuItemBranding>
-            <tileImage>jsforcelogo</tileImage>
-        </menuItemBranding>
-        <position>4</position>
-        <publiclyAvailable>true</publiclyAvailable>
-        <target>/jsforce-patterns</target>
-        <type>InternalLink</type>
-    </navigationMenuItem>
-    <navigationMenuItem>
-        <label>Jest &amp; LWC</label>
-        <menuItemBranding>
-            <tileImage>jest2</tileImage>
-        </menuItemBranding>
-        <position>5</position>
-        <publiclyAvailable>true</publiclyAvailable>
-        <target>/jest-lwc</target>
-        <type>InternalLink</type>
-    </navigationMenuItem>
-    <navigationMenuItem>
-        <label>Hopped Up Network</label>
-        <menuItemBranding>
-            <tileImage>hoppedupnetwork</tileImage>
-        </menuItemBranding>
-        <position>6</position>
-        <publiclyAvailable>true</publiclyAvailable>
-        <target>/hopped-up-network</target>
-        <type>InternalLink</type>
-    </navigationMenuItem>
-    <navigationMenuItem>
-        <label>Udemy</label>
-        <menuItemBranding>
-            <tileImage>udemy</tileImage>
-        </menuItemBranding>
-        <position>7</position>
-        <publiclyAvailable>true</publiclyAvailable>
-        <target>/udemy</target>
+        <target>/wordle-with-friends</target>
         <type>InternalLink</type>
     </navigationMenuItem>
 </NavigationMenu>
