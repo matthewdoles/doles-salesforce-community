@@ -3,7 +3,7 @@ node_js:
   - stable
 before_install:
   - openssl aes-256-cbc -K $encrypted_2c908a265167_key -iv $encrypted_2c908a265167_iv
-    -in assets/server.key.enc -out server.key -d
+    -in assets/server.key.enc -out assets/server.key -d
 install:
   - npm install sfdx-cli
   - sfdx force:auth:jwt:grant --clientid $CONSUMERKEY --jwtkeyfile assets/server.key
