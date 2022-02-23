@@ -175,7 +175,7 @@
         },
         {
           "componentAttributes": {
-            "richTextValue": "<p><b style=\"font-size: 16px;\">Instructor:</b><span style=\"font-size: 16px;\"> Maximilian Schwarzmüller</span></p><p><b style=\"font-size: 16px;\">Completed:</b><span style=\"font-size: 16px;\"> May 2020</span></p><p><b style=\"font-size: 16px;\">Review:</b><span style=\"font-size: 16px;\"> With a good understanding of React, I was turned on to React Native by a friend, </span><a href=\"https://www.linkedin.com/in/donnie-waters\" target=\"_blank\" style=\"font-size: 16px;\">Donnie Waters</a><span style=\"font-size: 16px;\">, who has used the stack extensively to develop his own successful mobile app: </span><a href=\"https://rocket-league.com/app\" target=\"_blank\" style=\"font-size: 16px;\">Rocket League Garage</a><span style=\"font-size: 16px;\">. With this handy course and his guidance, I created my first mobile app: </span><a href=\"vigilant\" target=\"_blank\" style=\"font-size: 16px;\">Vigilant - Valorant Strategy</a><span style=\"font-size: 16px;\">.</span></p><p><b style=\"font-size: 16px;\">My follow along code: </b><a href=\"https://github.com/matthewdoles/react-native-course\" target=\"_blank\" style=\"font-size: 16px;\">https://github.com/matthewdoles/react-native-course</a></p>"
+            "richTextValue": "<p><b style=\"font-size: 16px;\">Instructor:</b><span style=\"font-size: 16px;\"> Maximilian Schwarzmüller</span></p><p><b style=\"font-size: 16px;\">Completed:</b><span style=\"font-size: 16px;\"> May 2020</span></p><p><b style=\"font-size: 16px;\">Review:</b><span style=\"font-size: 16px;\"> With a good understanding of React, I was turned on to React Native by a friend, </span><a href=\"https://www.linkedin.com/in/donnie-waters\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px;\">Donnie Waters</a><span style=\"font-size: 16px;\">, who has used the stack extensively to develop his own successful mobile app: </span><a href=\"https://rocket-league.com/app\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px;\">Rocket League Garage</a><span style=\"font-size: 16px;\">. With this handy course and his guidance, I created my first mobile app: </span><a href=\"vigilant\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px;\">Vigilant - Valorant Strategy</a><span style=\"font-size: 16px;\">.</span></p><p><b style=\"font-size: 16px;\">My follow along code: </b><a href=\"https://github.com/matthewdoles/react-native-course\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px;\">https://github.com/matthewdoles/react-native-course</a></p>"
           },
           "componentName": "forceCommunity:richTextInline",
           "id": "6cec2a0d-d921-44c6-b032-ee1ded1b02a4",
@@ -219,6 +219,46 @@
           },
           "componentName": "forceCommunity:richTextInline",
           "id": "0356a11e-7550-4c22-80f8-5d42bb29b926",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
+        {
+          "componentAttributes": {
+            "course": "Typescript"
+          },
+          "componentName": "c:udemyCourseHeader",
+          "id": "719a4b67-e69a-418f-8e17-e31a366a5508",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
+        {
+          "componentAttributes": {
+            "richTextValue": "<p><b style=\"font-size: 16px;\">Instructor: </b><span style=\"font-size: 16px;\">Maximilian Schwarzmüller</span></p><p><b style=\"font-size: 16px;\">Completed:</b><span style=\"font-size: 16px;\"> July 2021</span></p><p><b style=\"font-size: 16px;\">Review: </b><span style=\"font-size: 16px;\">Learning more and more about Javascript, you hear more and more about TypeScript. TypeScript itself is built on top of regualr vanilla JavaScript and aims to primarily provide typings to fields, classes, interfaces, etc. which helps produce more clean and less error-prone code. TypeScript is not&nbsp;a runtime-environment or front-end framework - instead projects like Node or React can be built using TypeScript. The interesting beauty of TypeScript is a project could be enabled to use it but practically the entire project could still be in vanilla JavaScript cause in the end that it is what the code is compiled into - TypeScript is a useful as you make it. So to start understanding the syntax, use cases, etc. of TypeScript, I took this course. As time goes on, I hope to slowly enable more projects with TypeScript and become more comfortable using it.</span></p><p><b style=\"font-size: 16px; color: var(--lwc-colorTextDefault,rgba(0, 0, 0, 0.8)); background-color: transparent;\">My follow along code:</b> <a href=\"https://github.com/matthewdoles/typescript-tutorial\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px;\">https://github.com/matthewdoles/typescript-tutorial</a></p><p><a href=\"https://github.com/matthewdoles/node-scrapper-tutorial\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px;\">&nbsp;</a></p>"
+          },
+          "componentName": "forceCommunity:richTextInline",
+          "id": "3624e69b-b10a-429e-8aa6-eb3016f88b89",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
+        {
+          "componentAttributes": {
+            "course": "Svelte"
+          },
+          "componentName": "c:udemyCourseHeader",
+          "id": "19c37147-0b24-4c4d-846b-c587b9f9f036",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        },
+        {
+          "componentAttributes": {
+            "richTextValue": "<p><b style=\"font-size: 16px;\">Instructor:</b><span style=\"font-size: 16px;\"> Maximilian Schwarzmüller</span></p><p><b style=\"font-size: 16px;\">Completed:</b><span style=\"font-size: 16px;\"> December 2021</span></p><p><b style=\"font-size: 16px;\">Review: </b><span style=\"font-size: 16px;\">One day a co-worker asked me if I had heard of Svelte and showed me how it differs from frameworks like React, Angular, and Vue. While the latter are frameworks that utilize a virtual dom, Svelte is a compiler which generates the needed Javascript code to do the UI changes directly to the DOM instead. The results are a smaller packaged bundle and faster execution times. With my interest piqued, I decided to take this Svelte.js course and understand the inner working for myself. I thoroughly enjoyed learning Svelte, and have gone on to build a few personal projects with SvelteKit specifically. While Svelte offers greate performance benchmarks, there are still pros and cons between it and your popular heavy hitter frameworks. For large scale projects, you are often better off going with React, Angular, or Vue.</span></p><p><b style=\"background-color: transparent; color: var(--lwc-colorTextDefault,rgba(0, 0, 0, 0.8)); font-size: 16px;\">My follow along code:</b> <a href=\"https://github.com/matthewdoles/svelte-tutorial\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px;\">https://github.com/matthewdoles/svelte-tutorial</a></p><p><a href=\"https://github.com/matthewdoles/node-scrapper-tutorial\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px;\">&nbsp;</a></p>"
+          },
+          "componentName": "forceCommunity:richTextInline",
+          "id": "778211d2-cf95-4b1b-b754-be4dd3426f66",
           "renderPriority": "NEUTRAL",
           "renditionMap": {},
           "type": "component"

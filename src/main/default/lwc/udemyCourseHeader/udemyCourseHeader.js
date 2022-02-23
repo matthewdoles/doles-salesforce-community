@@ -58,8 +58,18 @@ export default class UdemyCourseHeader extends LightningElement {
         this.title =
           '<a href="https://www.udemy.com/course/salesforce-administrator/">The Complete Salesforce Classic Administrator Certification</a>';
         break;
+      case 'Svelte':
+        this.image = UDEMY_IMAGES + '/svelte-course.jpg';
+        this.title =
+          '<a href="https://www.udemy.com/course/sveltejs-the-complete-guide/">Svelte.js - The Complete Guide (incl. Sapper.js)</a>';
+        break;
+      case 'Typescript':
+        this.image = UDEMY_IMAGES + '/typescript-course.jpg';
+        this.title =
+          '<a href="https://www.udemy.com/course/understanding-typescript/">Understanding TypeScript - 2022 Edition</a>';
+        break;
       default:
-        this.image = UDEMY_IMAGES + '/salesforce-admin-course.jpg';
+        this.image = UDEMY_IMAGES + '/typescript-course.jpg';
         this.title =
           '<a href="https://www.udemy.com/course/salesforce-administrator/">The Complete Salesforce Classic Administrator Certification</a>';
         break;
