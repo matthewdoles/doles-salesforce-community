@@ -43,16 +43,16 @@
         <value
     >&lt;p class=&quot;slds-p-bottom_large&quot; style=&quot;font-size: 16px&quot;&gt;
       I initially started my undergraduate education at
-      &lt;a href=&quot;https://franklincollege.edu/&quot;&gt;Franklin College&lt;/a&gt; in Fall of
-      2012 as a Computer Science major. Franklin College is located in Indiana,
-      and Franklin itself is the small town just South of Indianapolis I grew up
-      in. However, after two years I transferred to the
-      &lt;a href=&quot;http://usfsm.edu/&quot;&gt;University of South Florida Sarasota-Manatee&lt;/a&gt;
-      in Fall of 2015 in order to be closer to my parents that had moved to the
-      area themselves a year prior. Unfortunately, they did not have a Computer
-      Science major. However, the program still offered me the education and
-      tools needed to pursue a career path in the general IT field.
- &lt;/p&gt;</value>
+      &lt;b&gt;&lt;a href=&quot;https://franklincollege.edu/&quot;&gt;Franklin College&lt;/a&gt;&lt;/b&gt; in Fall of
+      2012 as a Computer Science major. Franklin College is located just South
+      of Indianapolis, Indiana, and is the hometown I grew up in for 20 years.
+      However, after two years I transferred to the
+      &lt;b&gt;&lt;a href=&quot;http://usfsm.edu/&quot;&gt;University of South Florida Sarasota- 
+       Manatee&lt;/a&gt;&lt;/b&gt; in Fall of 2015 in order to be closer to my parents who had 
+       moved around the area themselves a year prior. Unfortunately, they did not 
+       have a Computer Science major, but instead a general IT major with various 
+       concentrations.
+&lt;/p&gt;</value>
     </labels>
     <labels>
         <fullName>Undergrad_Body_2</fullName>
@@ -61,16 +61,15 @@
         <shortDescription>Undergrad_Body_2</shortDescription>
         <value
     >&lt;p class=&quot;slds-p-bottom_large&quot; style=&quot;font-size: 16px&quot;&gt;
-      The only downside is I wanted to pursue a career path in development or
-      engineering. Having graduated in Spring of 2018, I spent the majority of
-      that summer looking for a job, and when I wasn&apos;t doing that I was
-      learning, coding, and filling in the missing gaps so I could land a job as
-      a developer. Luckily when it rains it pours, and during a one week span in
-      August of 2018 I was offered three jobs. One as a PHP developer, the second
-      as an intern to full-time C#/.NET developer, and the final one being the
-      Application Support Analyst with J&amp;amp;J. I ended taking up the position with 
-      J&amp;amp;J as I could not  pass up on the chance to work with such a great company 
-      and work my way towards a developer role.
+      With that being the case, it took me all summer to find a proper developer
+      job - and when I wasn&apos;t looking for jobs, I was learning, coding, and doing all
+      I could to fill in the missing gaps in order to land such a job. Luckily
+      when it rains it pours, and during a one week span in August of 2018 I was
+      offered three jobs. One as a PHP developer, the second as an intern to
+      full-time C#/.NET developer, and the final one as a Application Support
+      Analyst role with J&amp;amp;J. I ended taking up the position with J&amp;amp;J.
+      While it was not a developer role, I could not pass up on the chance to
+      work with such a great company and work my way towards such a role.
 &lt;/p&gt;</value>
     </labels>
     <labels>

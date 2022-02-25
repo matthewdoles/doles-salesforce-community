@@ -18,6 +18,16 @@
           "renderPriority": "NEUTRAL",
           "renditionMap": {},
           "type": "component"
+        },
+        {
+          "componentAttributes": {
+            "richTextValue": "<p>&nbsp;</p><p>&nbsp;</p>"
+          },
+          "componentName": "forceCommunity:richTextInline",
+          "id": "5713cda9-2b0d-4d7f-9e2f-648b39e2d3fc",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
         }
       ],
       "id": "a3d1dbaa-83ab-46ca-93b8-657037257bba",
