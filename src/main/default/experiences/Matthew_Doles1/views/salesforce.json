@@ -5,6 +5,18 @@
   "label": "Salesforce",
   "regions": [
     {
+      "components": [
+        {
+          "componentAttributes": {
+            "richTextValue": "<p> </p>"
+          },
+          "componentName": "forceCommunity:richTextInline",
+          "id": "10cd1011-ee41-4ce9-9450-23dcd24e493c",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
       "id": "e54128cc-8a0c-4fde-9e24-e0e447ba8099",
       "regionName": "header",
       "type": "region"

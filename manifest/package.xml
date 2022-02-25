@@ -61,6 +61,7 @@
         <name>Network</name>
     </types>
     <types>
+        <members>Fonts</members>
         <members>FooterImages</members>
         <members>HeaderImages</members>
         <members>SalesforceCertificationsImages</members>

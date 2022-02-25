@@ -66,7 +66,7 @@
     <navigationMenuItem>
         <label>Pokedex</label>
         <menuItemBranding>
-            <tileImage>pokedex</tileImage>
+            <tileImage>pokedex1</tileImage>
         </menuItemBranding>
         <position>7</position>
         <publiclyAvailable>true</publiclyAvailable>

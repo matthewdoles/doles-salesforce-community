@@ -1,6 +1,6 @@
 {
   "activeBrandingSetId": "60cc63fa-142f-46e0-b519-4d19c09676bd",
-  "customCSS": ".uiTabset--default .tabs__nav {\n    border-bottom: none !important;\n}",
+  "customCSS": ".uiTabset--default .tabs__nav {\n    border-bottom: none !important;\n}\n\n@font-face {\n    font-family: 'Roboto Regular';\n    src: url('/matthew/s/sfsites/c/resource/Fonts/static/Heebo-Regular.ttf') format(\"truetype\");\n}\n\n@font-face {\n    font-family: 'Roboto Bold';\n    src: url('/matthew/s/sfsites/c/resource/Fonts/static/Heebo-Bold.ttf') format(\"truetype\");\n}",
   "developerName": "cypress",
   "id": "e0f11460-c261-4fba-a60b-ec8fad97aa3c",
   "label": "Cypress",
@@ -42,7 +42,7 @@
     },
     {
       "componentAttributes": {
-        "fixedPageWidth": 1443,
+        "fixedPageWidth": 1210,
         "headerBgColor": "rgba(255, 255, 255, 0.8)",
         "isHeaderPinned": true,
         "isHeroUnderHeader": false,
@@ -58,13 +58,13 @@
           "components": [
             {
               "componentAttributes": {
-                "background": "background: rgb(15,25,34)",
+                "background": "background: rgb(24,24,27)",
                 "backgroundOverlayColor": "rgba(0, 0, 0, 0.3)",
                 "borderBottomColor": "rgba(33, 33, 33, 0.15)",
                 "centerAlignLogo": true,
-                "collapseNavMenu": false,
+                "collapseNavMenu": true,
                 "containHeader": true,
-                "containHeaderWidth": 1440,
+                "containHeaderWidth": 1920,
                 "dropdownBackgroundColor": "rgb(255, 255, 255)",
                 "dropdownBackgroundHoverColor": "",
                 "dropdownBorderColor": "rgb(240, 240, 240)",
@@ -280,7 +280,7 @@
     },
     {
       "componentAttributes": {
-        "fixedPageWidth": 1440,
+        "fixedPageWidth": 1210,
         "headerBgColor": "rgba(28, 22, 28, 0.9)",
         "isHeaderPinned": true,
         "isHeroUnderHeader": false,
@@ -296,13 +296,13 @@
           "components": [
             {
               "componentAttributes": {
-                "background": "background: rgb(15,25,34)",
+                "background": "background: rgb(24,24,27)",
                 "backgroundOverlayColor": "rgba(255, 255, 255, 0.3)",
                 "borderBottomColor": "rgba(33, 33, 33, 0.15)",
                 "centerAlignLogo": true,
-                "collapseNavMenu": false,
+                "collapseNavMenu": true,
                 "containHeader": true,
-                "containHeaderWidth": 1440,
+                "containHeaderWidth": 1920,
                 "dropdownBackgroundColor": "rgb(255, 255, 255)",
                 "dropdownBackgroundHoverColor": "",
                 "dropdownBorderColor": "rgb(240, 240, 240)",
@@ -440,7 +440,7 @@
                 "ctaShowBtnOne": false,
                 "ctaShowBtnTwo": false,
                 "fixedHeroWidth": true,
-                "heroHeight": 110,
+                "heroHeight": 60,
                 "heroWidth": 1440,
                 "showCaption": false,
                 "showSubtitle": true,
@@ -518,7 +518,7 @@
     },
     {
       "componentAttributes": {
-        "fixedPageWidth": 1443,
+        "fixedPageWidth": 1210,
         "headerBgColor": "rgba(255, 255, 255, 0.8)",
         "isHeaderPinned": true,
         "isHeroUnderHeader": false,
@@ -534,13 +534,13 @@
           "components": [
             {
               "componentAttributes": {
-                "background": "background: rgb(15,25,34)",
+                "background": "background: rgb(24,24,27)",
                 "backgroundOverlayColor": "rgba(0, 0, 0, 0.3)",
                 "borderBottomColor": "rgba(33, 33, 33, 0.15)",
                 "centerAlignLogo": true,
-                "collapseNavMenu": false,
+                "collapseNavMenu": true,
                 "containHeader": true,
-                "containHeaderWidth": 1440,
+                "containHeaderWidth": 1920,
                 "dropdownBackgroundColor": "rgb(255, 255, 255)",
                 "dropdownBackgroundHoverColor": "",
                 "dropdownBorderColor": "rgb(240, 240, 240)",
@@ -678,7 +678,7 @@
                 "ctaShowBtnOne": false,
                 "ctaShowBtnTwo": false,
                 "fixedHeroWidth": true,
-                "heroHeight": 91,
+                "heroHeight": 60,
                 "heroWidth": 1336,
                 "showCaption": false,
                 "showSubtitle": true,
@@ -756,7 +756,7 @@
     },
     {
       "componentAttributes": {
-        "fixedPageWidth": 1443,
+        "fixedPageWidth": 1210,
         "headerBgColor": "rgba(255, 255, 255, 0.8)",
         "isHeaderPinned": true,
         "isHeroUnderHeader": false,
@@ -772,13 +772,13 @@
           "components": [
             {
               "componentAttributes": {
-                "background": "background: rgb(15,25,34)",
+                "background": "background: rgb(24,24,27)",
                 "backgroundOverlayColor": "rgba(0, 0, 0, 0.3)",
                 "borderBottomColor": "rgba(33, 33, 33, 0.15)",
                 "centerAlignLogo": true,
-                "collapseNavMenu": false,
+                "collapseNavMenu": true,
                 "containHeader": true,
-                "containHeaderWidth": 1440,
+                "containHeaderWidth": 1920,
                 "dropdownBackgroundColor": "rgb(255, 255, 255)",
                 "dropdownBackgroundHoverColor": "",
                 "dropdownBorderColor": "rgb(240, 240, 240)",
@@ -916,7 +916,7 @@
                 "ctaShowBtnOne": false,
                 "ctaShowBtnTwo": false,
                 "fixedHeroWidth": true,
-                "heroHeight": 100,
+                "heroHeight": 60,
                 "heroWidth": 1336,
                 "showCaption": false,
                 "showSubtitle": true,
@@ -994,7 +994,7 @@
     },
     {
       "componentAttributes": {
-        "fixedPageWidth": 1443,
+        "fixedPageWidth": 1210,
         "headerBgColor": "rgba(255, 255, 255, 0.8)",
         "isHeaderPinned": true,
         "isHeroUnderHeader": false,
@@ -1010,13 +1010,13 @@
           "components": [
             {
               "componentAttributes": {
-                "background": "background: rgb(15,25,34)",
+                "background": "background: rgb(24,24,27)",
                 "backgroundOverlayColor": "rgba(0, 0, 0, 0.3)",
                 "borderBottomColor": "rgba(33, 33, 33, 0.15)",
                 "centerAlignLogo": true,
-                "collapseNavMenu": false,
+                "collapseNavMenu": true,
                 "containHeader": true,
-                "containHeaderWidth": 1440,
+                "containHeaderWidth": 1920,
                 "dropdownBackgroundColor": "rgb(255, 255, 255)",
                 "dropdownBackgroundHoverColor": "",
                 "dropdownBorderColor": "rgb(240, 240, 240)",
@@ -1127,7 +1127,7 @@
           "components": [
             {
               "componentAttributes": {
-                "bgImage": "background: rgb(0,0,0) url(/sfsites/c/file-asset/salesforce?v=1) top center /cover",
+                "bgImage": "background: rgb(0,0,0) url(/sfsites/c/file-asset/salesforce?v=2) top center /cover",
                 "bgOverlayColor": "rgba(0, 0, 0, 0)",
                 "captionText": "Limited time offer",
                 "captionTextColor": "rgb(255, 255, 255)",
@@ -1154,7 +1154,7 @@
                 "ctaShowBtnOne": false,
                 "ctaShowBtnTwo": false,
                 "fixedHeroWidth": true,
-                "heroHeight": 80,
+                "heroHeight": 60,
                 "heroWidth": 1366,
                 "showCaption": false,
                 "showSubtitle": true,
@@ -1232,7 +1232,7 @@
     },
     {
       "componentAttributes": {
-        "fixedPageWidth": 1443,
+        "fixedPageWidth": 1210,
         "headerBgColor": "rgba(255, 255, 255, 0.8)",
         "isHeaderPinned": true,
         "isHeroUnderHeader": false,
@@ -1248,13 +1248,13 @@
           "components": [
             {
               "componentAttributes": {
-                "background": "background: rgb(15,25,34)",
+                "background": "background: rgb(24,24,27)",
                 "backgroundOverlayColor": "rgba(0, 0, 0, 0.3)",
-                "borderBottomColor": "rgba(33, 33, 33, 0.15)",
+                "borderBottomColor": "rgba(0, 0, 0, 0)",
                 "centerAlignLogo": true,
-                "collapseNavMenu": false,
+                "collapseNavMenu": true,
                 "containHeader": true,
-                "containHeaderWidth": 1440,
+                "containHeaderWidth": 1920,
                 "dropdownBackgroundColor": "rgb(255, 255, 255)",
                 "dropdownBackgroundHoverColor": "",
                 "dropdownBorderColor": "rgb(240, 240, 240)",
@@ -1262,7 +1262,7 @@
                 "dropdownTextHoverColor": "",
                 "headerHeight": 30,
                 "linkActiveBorderColor": "",
-                "linkColor": "rgba(255, 255, 255, 0.8)",
+                "linkColor": "rgba(255, 255, 255, 0.79)",
                 "linkHoverColor": "rgba(255, 255, 255, 0.7)",
                 "linkTextShadowColor": "rgba(255, 255, 255, 0)",
                 "logoWidth": 115,
@@ -1392,7 +1392,7 @@
                 "ctaShowBtnOne": false,
                 "ctaShowBtnTwo": false,
                 "fixedHeroWidth": true,
-                "heroHeight": 120,
+                "heroHeight": 100,
                 "heroWidth": 1336,
                 "showCaption": false,
                 "showSubtitle": false,
