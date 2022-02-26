@@ -1,6 +1,6 @@
 {
   "activeBrandingSetId": "60cc63fa-142f-46e0-b519-4d19c09676bd",
-  "customCSS": ".uiTabset--default .tabs__nav {\n    border-bottom: none !important;\n}\n\n@font-face {\n    font-family: 'Roboto Regular';\n    src: url('/matthew/s/sfsites/c/resource/Fonts/static/Heebo-Regular.ttf') format(\"truetype\");\n}\n\n@font-face {\n    font-family: 'Roboto Bold';\n    src: url('/matthew/s/sfsites/c/resource/Fonts/static/Heebo-Bold.ttf') format(\"truetype\");\n}",
+  "customCSS": "@font-face {\n    font-family: 'Roboto Regular';\n    src: url('/matthew/s/sfsites/c/resource/Fonts/static/Heebo-Regular.ttf') format(\"truetype\");\n}\n\n@font-face {\n    font-family: 'Roboto Bold';\n    src: url('/matthew/s/sfsites/c/resource/Fonts/static/Heebo-Bold.ttf') format(\"truetype\");\n}",
   "developerName": "cypress",
   "id": "e0f11460-c261-4fba-a60b-ec8fad97aa3c",
   "label": "Cypress",

@@ -8,7 +8,7 @@
       "components": [
         {
           "componentAttributes": {
-            "richTextValue": "<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" src=\"{!contentAsset.worldewithfriends.1}\" alt=\"\" style=\"width: 139.188px; height: 139.188px;\"></p>"
+            "richTextValue": "<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.worldewithfriends.1}\" style=\"width: 184.609px; height: 184.609px;\"></p>\n<p style=\"text-align: center;\"><br></p>\n<h2 style=\"text-align: center;\"><b style=\"font-size: 20px;\">&nbsp;Wordle With Friends</b></h2>\n<p style=\"text-align: center;\"><a href=\"https://www.wordlewithfriends.co/\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px; background-color: rgb(255, 255, 255);\"><b>https://www.wordlewithfriends.co/</b></a></p>"
           },
           "componentName": "forceCommunity:richTextInline",
           "id": "71cc940d-5ba4-43b2-b158-4199fcc38d1c",
@@ -22,6 +22,78 @@
       "type": "region"
     },
     {
+      "components": [
+        {
+          "componentAttributes": {
+            "tabsetConfig": {
+              "UUID": "16563b41-6e10-4c03-9b32-4fbb8155c0f4",
+              "activeTab": "",
+              "tabs": [
+                {
+                  "UUID": "f0509884-4f52-4629-a0f0-4aa23d934c21",
+                  "allowGuestUser": true,
+                  "locked": false,
+                  "seedComponents": [],
+                  "tabKey": "1",
+                  "tabName": "Details"
+                },
+                {
+                  "UUID": "41543539-94de-42a4-96ea-c45586a4b324",
+                  "allowGuestUser": true,
+                  "locked": false,
+                  "seedComponents": [],
+                  "tabKey": "2",
+                  "tabName": "Preview"
+                }
+              ],
+              "useOverflowMenu": false
+            }
+          },
+          "componentName": "forceCommunity:tabset",
+          "id": "16563b41-6e10-4c03-9b32-4fbb8155c0f4",
+          "regions": [
+            {
+              "components": [
+                {
+                  "componentAttributes": {
+                    "richTextValue": "<p><br></p><p><span style=\"font-size: 16px;\">Given the popularity of </span><a href=\"https://www.powerlanguage.co.uk/wordle/\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px;\"><b>Wordle </b></a><span style=\"font-size: 16px;\">in early 2022, and having just finished off a personal project which enabled multiplayer functionality (</span><a href=\"https://matthew-doles-developer-edition.na139.force.com/matthew/s/good-word-hunting\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px;\"><b>Good Word Hunting</b></a><span style=\"font-size: 16px;\">) - I decided to keep that momentum going and create a multiplayer enabled Worlde clone: Worlde With Friends. With all the knowledge still fresh in my mind and using the same technology stack (Svelte, Node.js, Socket.io), this allowed to start from a clean slate, organize the code way better, and get the product up and running faster. </span></p><p><br></p><p><span style=\"font-size: 16px;\">The first thing I did to start the project was simply to re-create the base version on the game itself. Thus, while the website's main attraction is the ability to play the game with other users - the website does offer a singleplayer version because it was the first feature I did. The parameters of the game are simple: you get six guesses to guess a random 5 letter word. After each guess, a tile will be highlighted in one of three colors. A green tile means the letter is in the word and in the correct spot, a yellow tile means the letter is in the word but in the incorrect spot, and a gray tile means that letter is not in the word entirely.</span></p><p><br></p><p><span style=\"font-size: 16px;\">With the base version of the game re-created, I started enabling multiplayer functionality by first creating a Duel game mode where two players face-off. Each player guesses until they are correct or run out of guesses, but they cannot see the other players guesses until the player is completed. However, they can see the other players board and tiles. While it is of no use to either player, you can see how close they are to guessing the correct answer. Once both players are done guessing, both boards are shown with letters shown, points are tallied, and each user readys up to start the next round. As of now there is no time limit to guessing. In my opinion, part of the allure of Wordle is problem solving what the word could be and really thinking on it - a time limit and sense of being rushed takes away from that. However, I can see the appeal of it as well and may introduce a time mode eventually. </span></p><p><br></p><p><span style=\"font-size: 16px;\">After creating a Duel mode, I then started focusing on the Large game mode which allows up to 20 players to connect and play simutaneously. The parameters and rules of the game are exactly the same as the Duel mode. Thus, without a time limit it up to every player to finish guessing before the round is over. Thus, large lobbies like this are best played in a group setting whether it be a team work meeting or hanging out with friends online. Like the Duel mode, it may be wise to eventually introduce a timed mode or maybe in a user created lobby allow the host to set a round time limit. </span></p><p> </p>"
+                  },
+                  "componentName": "forceCommunity:richTextInline",
+                  "id": "49564c6f-bfa4-42ae-b672-f008419c85c6",
+                  "renditionMap": {},
+                  "type": "component"
+                }
+              ],
+              "id": "f0509884-4f52-4629-a0f0-4aa23d934c21",
+              "regionLabel": "Details",
+              "regionName": "1",
+              "renditionMap": {},
+              "type": "region"
+            },
+            {
+              "components": [
+                {
+                  "componentAttributes": {
+                    "richTextValue": "<p style=\"text-align: center;\"><br></p>\n<p style=\"text-align: center;\"><b style=\"font-size: 20px;\">Duel Lobby Guessing Phase</b></p>\n<p style=\"text-align: center;\"><br></p>\n<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.Duel_Guessing.1}\"></p>\n<p style=\"text-align: center;\"><br></p>\n<h5 style=\"text-align: center;\"><b style=\"font-size: 20px;\">Duel Lobby Post-Round</b></h5>\n<p style=\"text-align: center;\">&nbsp;&nbsp;&nbsp;<img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.Duel.1}\"></p>\n<p style=\"text-align: center;\"><br></p>\n<p style=\"text-align: center;\"><b style=\"font-size: 20px;\">Large Lobby Guessing</b></p>\n<p style=\"text-align: center;\"><br></p>\n<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.Large.1}\"></p>\n<p style=\"text-align: center;\"><br></p>\n<p style=\"text-align: center;\"><b style=\"font-size: 20px;\">Large Lobby Post-Round</b></p>\n<p style=\"text-align: center;\">&nbsp;<img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.Large_PostRound.1}\">&nbsp;&nbsp;</p>\n<p>&nbsp;</p>"
+                  },
+                  "componentName": "forceCommunity:richTextInline",
+                  "id": "2d1d0e3b-5f28-4196-b631-e41a9919820a",
+                  "renditionMap": {},
+                  "type": "component"
+                }
+              ],
+              "id": "41543539-94de-42a4-96ea-c45586a4b324",
+              "regionLabel": "Preview",
+              "regionName": "2",
+              "renditionMap": {},
+              "type": "region"
+            }
+          ],
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
       "id": "127d3fc8-f469-49eb-aa82-0dd0016cd41c",
       "regionName": "content",
       "type": "region"
