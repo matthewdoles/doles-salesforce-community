@@ -8,7 +8,7 @@
       "components": [
         {
           "componentAttributes": {
-            "richTextValue": "<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.baseball.1}\" style=\"width: 131.109px; height: 131.734px;\"></p>\n<p style=\"text-align: center;\"><br></p>\n<p style=\"text-align: center;\"><strong style=\"font-size: 20px;\">Baseball Affiliates</strong></p>\n<p style=\"text-align: center;\"><a href=\"https://baseball-react.vercel.app/\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-size: 16px;\"><strong>https://baseball-react.vercel.app/</strong></a></p>"
+            "richTextValue": "<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.baseball.1}\" style=\"width: 131.109px; height: 131.734px;\"></p>\n<p style=\"text-align: center;\"><br></p>\n<p style=\"text-align: center;\"><strong style=\"font-size: 20px;\">Baseball Affiliates</strong></p>\n<p style=\"text-align: center;\"><a href=\"https://baseball-react.vercel.app/\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px; background-color: rgb(255, 255, 255);\"><strong>https://baseball-react.vercel.app/</strong></a></p>"
           },
           "componentName": "forceCommunity:richTextInline",
           "id": "302a61bc-7d85-412b-8153-c73be0bedbed",
