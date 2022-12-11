@@ -8,7 +8,7 @@
       "components": [
         {
           "componentAttributes": {
-            "richTextValue": "<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" src=\"{!contentAsset.baseball.1}\" style=\"width: 131.109px; height: 131.734px;\" /></p>"
+            "richTextValue": "<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.baseball.1}\" style=\"width: 131.109px; height: 131.734px;\"></p>\n<p style=\"text-align: center;\"><br></p>\n<p style=\"text-align: center;\"><strong style=\"font-size: 20px;\">Baseball Affiliates</strong></p>\n<p style=\"text-align: center;\"><a href=\"https://baseball-react.vercel.app/\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-size: 16px;\"><strong>https://baseball-react.vercel.app/</strong></a></p>"
           },
           "componentName": "forceCommunity:richTextInline",
           "id": "302a61bc-7d85-412b-8153-c73be0bedbed",
@@ -25,10 +25,70 @@
       "components": [
         {
           "componentAttributes": {
-            "richTextValue": "<p style=\"text-align: center;\"><span style=\"font-size: 16px; color: rgb(0, 0, 0);\">Website</span><span style=\"font-size: 16px;\">:&nbsp;</span><a href=\"https://baseballaffiliates.web.app/\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px; background-color: rgb(255, 255, 255);\"><strong>https://baseballaffiliates.web.app/</strong></a></p><p><strong style=\"background-color: rgb(255, 255, 255); font-size: 16px;\">﻿</strong></p><p><span style=\"color: rgb(68, 68, 68); font-size: 16px; background-color: rgb(255, 255, 255);\">There are 30 teams in Major League Baseball, each one of those teams can have on average around 5 affilaite teams which they use to develop upcoming players. From high to low, these affilaite teams play in leagues such as Triple A (AAA), Double A (AA), High A (A+), Single A (A), Short-Season A (SS), and Rookie (R). This React website serves up a directory of all Major League Baseball teams and their affiliates.</span></p><p><br></p><p><span style=\"color: rgb(68, 68, 68); font-size: 16px; background-color: rgb(255, 255, 255);\">Having finished a slew of tutorials from Node, React, and MERN fullstack, I wanted to undertake a project of my own. On top of that, I started this project around the time the 2020 baseball season was supposed to start, but was postponed due to the global circumstances of COVID-19. So, part of the motivation was also just missing baseball.</span></p><p><br></p><p><span style=\"color: rgb(68, 68, 68); font-size: 16px; background-color: rgb(255, 255, 255);\">While I did a Udemy tutorial on the MERN fullstack, I wanted to also use the JSforce Patterns package I had recently created. Thus, I replaced the M (Mongoose) in MERN with Salesforce to host all the baseball team data. Each endpoint in my backend authenticates with the target Salesforce org, queries for the correct data, and transforms that data as needed before finally returning the data in JSON format. Please consult the backend repository for more detailed techincal documentation: </span><a href=\"https://github.com/matthewdoles/baseball-node\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px; background-color: rgb(255, 255, 255);\"><strong>https://github.com/matthewdoles/baseball-node</strong></a></p><p><br></p><p><span style=\"font-size: 16px; background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);\">For the frontend, there are three distinct pages. The default home page will show all teams which ranges up to around 200. However, a user can filter teams alphabetically (default), year established, legaue, and then division&nbsp;&nbsp;(on the condition that a league is selected). Additionally, there is a text search input which works in tandem with the filters except for when filtering by division. The second page lists the affiliate hierarchy for each MLB team. By default it will show the organizational hierarchy for all teams, but a user can click on a team icon in the header to filter results for that specific team. For smaller screens, especially mobile devices, a text input will render allowing for filtering. Then finally, there is a team details pages which is navigated to by clicking on a team in either of the previous pages. The page details include&nbsp;year established, stadium, capacity, address, etc. The page also features a map&nbsp;component which uses the stadium's lattitude and logitude to plot the location on a Google Map.</span><span style=\"font-size: 16px; color: rgb(68, 68, 68);\"> Please consult the frontend repository for more detailed techincal documentation: </span><a href=\"https://github.com/matthewdoles/baseball-react\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px; background-color: rgb(255, 255, 255);\"><strong>https://github.com/matthewdoles/baseball-react</strong></a></p><p><strong style=\"background-color: rgb(255, 255, 255); font-size: 16px;\">﻿</strong></p><p><br></p><p><br></p><p>&nbsp;</p>"
+            "tabsetConfig": {
+              "UUID": "9b542f8f-5311-49ea-8234-52392ff25c2d",
+              "activeTab": "",
+              "tabs": [
+                {
+                  "UUID": "2a9101f8-99ce-45bb-8ecb-9cf08f4ae5c8",
+                  "allowGuestUser": true,
+                  "locked": false,
+                  "seedComponents": [],
+                  "tabKey": "1",
+                  "tabName": "Details"
+                },
+                {
+                  "UUID": "87a2168b-7764-4141-a544-e1af62b149a6",
+                  "allowGuestUser": true,
+                  "locked": false,
+                  "seedComponents": [],
+                  "tabKey": "2",
+                  "tabName": "Preview"
+                }
+              ],
+              "useOverflowMenu": false
+            }
           },
-          "componentName": "forceCommunity:richTextInline",
-          "id": "01ee3386-79a2-49b1-a3ad-07b455120702",
+          "componentName": "forceCommunity:tabset",
+          "id": "9b542f8f-5311-49ea-8234-52392ff25c2d",
+          "regions": [
+            {
+              "components": [
+                {
+                  "componentAttributes": {
+                    "richTextValue": "<p><br></p><p><span style=\"background-color: rgb(255, 255, 255); font-size: 16px; color: rgb(0, 0, 0);\">There are 30 teams in Major League Baseball, each one of those teams can have on average around 5 affilaite teams which they use to develop upcoming players. From high to low, these affilaite teams play in leagues such as Triple A (AAA), Double A (AA), High A (A+), Single A (A), Short-Season A (SS), and Rookie (R). This React website serves up a directory of all Major League Baseball teams and their affiliates.</span></p><p><br></p><p><span style=\"background-color: rgb(255, 255, 255); font-size: 16px; color: rgb(0, 0, 0);\">Having finished a slew of tutorials from Node, React, and MERN fullstack, I wanted to undertake a project of my own. On top of that, I started this project around the time the 2020 baseball season was supposed to start, but was postponed due to the global circumstances of COVID-19. So, part of the motivation was also just missing baseball.</span></p><p><br></p><p><span style=\"background-color: rgb(255, 255, 255); font-size: 16px; color: rgb(0, 0, 0);\">While I did a Udemy tutorial on the MERN fullstack, I wanted to also use the JSforce Patterns package I had recently created. Thus, I replaced the M (Mongoose) in MERN with Salesforce to host all the baseball team data. Each endpoint in my backend authenticates with the target Salesforce org, queries for the correct data, and transforms that data as needed before finally returning the data in JSON format.</span></p><p><br></p><p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-size: 16px;\">For the frontend, there are three distinct pages. The default home page will show all teams which ranges up to around 200. However, a user can filter teams alphabetically (default), year established, legaue, and then division&nbsp;&nbsp;(on the condition that a league is selected). Additionally, there is a text search input which works in tandem with the filters except for when filtering by division. The second page lists the affiliate hierarchy for each MLB team. By default it will show the organizational hierarchy for all teams, but a user can click on a team icon in the header to filter results for that specific team. For smaller screens, especially mobile devices, a text input will render allowing for filtering. Then finally, there is a team details pages which is navigated to by clicking on a team in either of the previous pages. The page details include&nbsp;year established, stadium, capacity, address, etc. The page also features a map&nbsp;component which uses the stadium's lattitude and logitude to plot the location on a Google Map.</span></p><p><br></p><p><span style=\"font-size: 16px; color: rgb(0, 0, 0);\">Frontend Repo</span><span style=\"font-size: 16px;\">: </span><a href=\"https://github.com/matthewdoles/baseball-react\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px; background-color: rgb(255, 255, 255);\"><strong>https://github.com/matthewdoles/baseball-react</strong></a></p><p><span style=\"font-size: 16px; color: rgb(0, 0, 0);\">Backend Repo:</span><span style=\"font-size: 16px;\"> </span><a href=\"https://github.com/matthewdoles/baseball-node\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px; background-color: rgb(255, 255, 255);\"><strong>https://github.com/matthewdoles/baseball-node</strong></a></p><p><strong style=\"font-size: 16px;\">﻿</strong>&nbsp;</p>"
+                  },
+                  "componentName": "forceCommunity:richTextInline",
+                  "id": "01ee3386-79a2-49b1-a3ad-07b455120702",
+                  "renditionMap": {},
+                  "type": "component"
+                }
+              ],
+              "id": "2a9101f8-99ce-45bb-8ecb-9cf08f4ae5c8",
+              "regionLabel": "Details",
+              "regionName": "1",
+              "renditionMap": {},
+              "type": "region"
+            },
+            {
+              "components": [
+                {
+                  "componentAttributes": {
+                    "richTextValue": "<p style=\"text-align: center;\"><br></p>\n<p style=\"text-align: center;\"><strong style=\"font-size: 20px;\">Home Page</strong></p>\n<p style=\"text-align: center;\"><br></p>\n<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.BaseballAffiliatesMainPage.1}\"></p>\n<p style=\"text-align: center;\"><br></p>\n<p style=\"text-align: center;\"><strong style=\"font-size: 20px;\">Hierarchy Page</strong></p>\n<p style=\"text-align: center;\"><br></p>\n<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.BaseballAffiliatesHierarchy.1}\"></p>\n<p style=\"text-align: center;\"><br></p>"
+                  },
+                  "componentName": "forceCommunity:richTextInline",
+                  "id": "4165bdd2-c569-4766-bb4f-9b73bd852438",
+                  "renditionMap": {},
+                  "type": "component"
+                }
+              ],
+              "id": "87a2168b-7764-4141-a544-e1af62b149a6",
+              "regionLabel": "Preview",
+              "regionName": "2",
+              "renditionMap": {},
+              "type": "region"
+            }
+          ],
           "renderPriority": "NEUTRAL",
           "renditionMap": {},
           "type": "component"

@@ -8,7 +8,7 @@
       "components": [
         {
           "componentAttributes": {
-            "richTextValue": "<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" src=\"{!contentAsset.imageedit_1_8617561999.1}\" alt=\"\" style=\"width: 149.562px; height: 149.562px;\"></p>"
+            "richTextValue": "<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.imageedit_1_8617561999.1}\" style=\"width: 149.562px; height: 149.562px;\"></p>\n<p style=\"text-align: center;\"><br></p>\n<p style=\"text-align: center;\"><strong style=\"font-size: 20px;\">Blocky</strong></p>\n<p style=\"text-align: center;\"><a href=\"https://blocky-beige.vercel.app/\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px;\"><strong>https://blocky-beige.vercel.app/</strong></a></p>"
           },
           "componentName": "forceCommunity:richTextInline",
           "id": "1878001a-946a-4eb8-b64d-8042c5fbad61",
@@ -25,10 +25,70 @@
       "components": [
         {
           "componentAttributes": {
-            "richTextValue": "Replace this text with content of your own."
+            "tabsetConfig": {
+              "UUID": "44b48341-a9bb-4149-9291-a1bbf0dbfabe",
+              "activeTab": "",
+              "tabs": [
+                {
+                  "UUID": "676c1536-9e0a-4123-b506-9a3ee6637ed4",
+                  "allowGuestUser": false,
+                  "locked": false,
+                  "seedComponents": [],
+                  "tabKey": "1",
+                  "tabName": "Details"
+                },
+                {
+                  "UUID": "c44a6fe0-b311-4b9a-8831-fef86f3e0225",
+                  "allowGuestUser": false,
+                  "locked": false,
+                  "seedComponents": [],
+                  "tabKey": "2",
+                  "tabName": "Preview"
+                }
+              ],
+              "useOverflowMenu": false
+            }
           },
-          "componentName": "forceCommunity:richTextInline",
-          "id": "a4f5353f-f529-4603-acc9-37629331f069",
+          "componentName": "forceCommunity:tabset",
+          "id": "44b48341-a9bb-4149-9291-a1bbf0dbfabe",
+          "regions": [
+            {
+              "components": [
+                {
+                  "componentAttributes": {
+                    "richTextValue": "<p><br></p><p><span style=\"font-size: 16px; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);\">Having just finished a couple Svelte projects (</span><a href=\"https://matthew-doles-developer-edition.na139.force.com/matthew/s/good-word-hunting\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px; background-color: rgb(255, 255, 255); color: rgb(0, 102, 204);\"><strong>Good Word Hunting</strong></a><span style=\"font-size: 16px; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);\"> and </span><a href=\"https://matthew-doles-developer-edition.na139.force.com/matthew/s/wordle-with-friends\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px; background-color: rgb(255, 255, 255); color: rgb(0, 102, 204);\"><strong>Wordle with Friends</strong></a><span style=\"font-size: 16px; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);\">) that utilized a </span><a href=\"https://socket.io/\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px; background-color: rgb(255, 255, 255); color: rgb(0, 102, 204);\"><strong>Socket.io</strong></a><span style=\"font-size: 16px; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);\"> backend for multiplayer functionality, I wanted to switch up the frontend framework to practice. I ended up coming back to React on the precedence that I also wanted to utilize and improve my Typescript skills. I had somewhat recently completed a Typescript course and wanted to put the knowledge to practice. Thus, I created this simple </span><a href=\"https://www.woodypuzzle.com/\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px; background-color: rgb(255, 255, 255); color: rgb(0, 102, 204);\"><strong>Woody </strong></a><span style=\"font-size: 16px; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);\">clone where the player starts with a blank 10x10 board and places randomly selected pieces to form rows or columns of to get points and clear said rows and columns.</span></p><p><br></p><p><span style=\"background-color: rgb(255, 255, 255); font-size: 16px; color: rgb(0, 0, 0);\">There are 15 unique game pieces that may generate throughout the game. Furthermore, only 3 game pieces will generate at a time. When the 3 pieces are placed, then 3 more random pieces are generatd. Thus, creating a need to strategically place the pieces given and anticpate any combination of the next 3 random pieces. The most helpful asset which even makes this project possible is the&nbsp;</span><a href=\"https://www.npmjs.com/package/react-draggable\" rel=\"noopener noreferrer\" target=\"null\" style=\"background-color: rgb(255, 255, 255); font-size: 16px; color: rgb(0, 0, 0);\">react-draggable</a><span style=\"background-color: rgb(255, 255, 255); font-size: 16px; color: rgb(0, 0, 0);\">&nbsp;npm package. This package allows for reactive draggable components. One of the most trickiest parts of this project was capturuing the x,y coordinates on drag end for a component (game piece) and then accurately fill in the correct squares on the game baord. </span></p><p><br></p><p><span style=\"font-size: 16px; color: rgb(0, 0, 0);\">As previoulsy mentioned, the game supports multiplayer using Socket.io. A player clicks the multiplayer button, provides a username, and enters a queue to search for another player. Unlike my previous iterations, Blocky doesn't have private lobbies - when a user enters the queue it just finds the first player it can or (more likely) if the player is the only user in the queue it will wait for another user to enter the queue. Thus, people can easily queue into each other as I do not anticipate this website to get crazy traffic as it is already a clone of an existing game which I replicated for fun. </span></p><p><br></p><p><br></p><p><span style=\"color: rgb(0, 0, 0); font-size: 16px;\">Frontend Repo: </span><a href=\"https://github.com/matthewdoles/blocky\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px;\"><strong>https://github.com/matthewdoles/blocky</strong></a></p><p><span style=\"color: rgb(0, 0, 0); font-size: 16px;\">Backend Repo:</span><span style=\"font-size: 16px;\"> </span><a href=\"https://github.com/matthewdoles/blocky-backend\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px;\"><strong>https://github.com/matthewdoles/blocky-backend</strong></a></p><p><span style=\"font-size: 16px;\">&nbsp;</span></p>"
+                  },
+                  "componentName": "forceCommunity:richTextInline",
+                  "id": "a4f5353f-f529-4603-acc9-37629331f069",
+                  "renditionMap": {},
+                  "type": "component"
+                }
+              ],
+              "id": "676c1536-9e0a-4123-b506-9a3ee6637ed4",
+              "regionLabel": "Details",
+              "regionName": "1",
+              "renditionMap": {},
+              "type": "region"
+            },
+            {
+              "components": [
+                {
+                  "componentAttributes": {
+                    "richTextValue": "<p style=\"text-align: center;\"><br></p>\n<p style=\"text-align: center;\"><strong style=\"font-size: 20px;\">Singleplayer Game</strong></p>\n<p style=\"text-align: center;\"><br></p>\n<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" src=\"{!contentAsset.BlockyGame.1}\" alt=\"\"></p>\n<p style=\"text-align: center;\"><br></p>\n<p style=\"text-align: center;\"><strong style=\"font-size: 20px;\">Multiplayer Game</strong></p>\n<p style=\"text-align: center;\"><br></p>\n<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" src=\"{!contentAsset.BlockyMultiplayer.1}\" alt=\"\"></p>\n<p style=\"text-align: center;\"><br></p>"
+                  },
+                  "componentName": "forceCommunity:richTextInline",
+                  "id": "52ba85f3-59a6-4518-be94-ecc81d97855e",
+                  "renditionMap": {},
+                  "type": "component"
+                }
+              ],
+              "id": "c44a6fe0-b311-4b9a-8831-fef86f3e0225",
+              "regionLabel": "Preview",
+              "regionName": "2",
+              "renditionMap": {},
+              "type": "region"
+            }
+          ],
           "renderPriority": "NEUTRAL",
           "renditionMap": {},
           "type": "component"
