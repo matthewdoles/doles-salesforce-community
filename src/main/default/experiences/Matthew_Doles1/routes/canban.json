@@ -1,0 +1,11 @@
+{
+  "activeViewId": "89cb3910-da18-4e80-95d9-d6cf6f3545bb",
+  "appPageId": "bc7511ba-0fce-40eb-b7e3-1ebb0d62c409",
+  "configurationTags": [],
+  "id": "dae29e5e-5325-42d8-8b30-5111aaedf5da",
+  "label": "Canban",
+  "pageAccess": "UseParent",
+  "routeType": "custom-canban",
+  "type": "route",
+  "urlPrefix": "canban"
+}

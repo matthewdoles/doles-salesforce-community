@@ -1,0 +1,70 @@
+{
+  "appPageId": "bc7511ba-0fce-40eb-b7e3-1ebb0d62c409",
+  "componentName": "siteforce:dynamicLayout",
+  "id": "83295c7c-ee8a-47c0-8f75-74ce4cb6513c",
+  "label": "News Detail",
+  "regions": [
+    {
+      "components": [
+        {
+          "componentAttributes": {
+            "background": "background: rgba(0,0,0,0)",
+            "backgroundOverlay": "rgba(0,0,0,0.5)",
+            "contentAreaWidth": 100,
+            "sectionConfig": {
+              "UUID": "e6af2e9c-5338-4e20-ba11-53df1800992a",
+              "columns": [
+                {
+                  "UUID": "d881329e-68ae-4408-964b-c7ab815636cb",
+                  "columnKey": "1",
+                  "columnName": "Column 1",
+                  "columnWidth": "12",
+                  "seedComponents": []
+                }
+              ]
+            },
+            "sectionHeight": 300
+          },
+          "componentName": "forceCommunity:section",
+          "id": "e6af2e9c-5338-4e20-ba11-53df1800992a",
+          "regions": [
+            {
+              "id": "d881329e-68ae-4408-964b-c7ab815636cb",
+              "regionLabel": "Column 1",
+              "regionName": "1",
+              "renditionMap": {},
+              "type": "region"
+            }
+          ],
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
+      "id": "c2f73ab9-5a22-41ad-a481-f993085c2bb1",
+      "regionName": "content",
+      "type": "region"
+    },
+    {
+      "components": [
+        {
+          "componentAttributes": {
+            "customHeadTags": "",
+            "description": "",
+            "title": "{!Content.contentTypeLabel}.{!Content.title}"
+          },
+          "componentName": "forceCommunity:seoAssistant",
+          "id": "f0eb19af-8d0f-45ea-9f2d-ff4cb4fe88b7",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
+      "id": "e661912d-ebaa-4b75-8d91-1609c319fc1c",
+      "regionName": "sfdcHiddenRegion",
+      "type": "region"
+    }
+  ],
+  "themeLayoutType": "Inner",
+  "type": "view",
+  "viewType": "managed-content-news"
+}

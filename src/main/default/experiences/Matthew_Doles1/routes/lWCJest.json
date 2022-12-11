@@ -1,6 +1,7 @@
 {
   "activeViewId": "b2fce91e-7986-4aa8-a65c-27882ab9d61e",
   "appPageId": "bc7511ba-0fce-40eb-b7e3-1ebb0d62c409",
+  "configurationTags": [],
   "id": "12c15457-853a-4c96-b26f-0260d1ed996f",
   "label": "LWC Jest",
   "pageAccess": "UseParent",

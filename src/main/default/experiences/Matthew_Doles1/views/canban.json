@@ -1,0 +1,68 @@
+{
+  "appPageId": "bc7511ba-0fce-40eb-b7e3-1ebb0d62c409",
+  "componentName": "siteforce:sldsOneColLayout",
+  "id": "89cb3910-da18-4e80-95d9-d6cf6f3545bb",
+  "label": "Canban",
+  "regions": [
+    {
+      "components": [
+        {
+          "componentAttributes": {
+            "richTextValue": "<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" src=\"{!contentAsset.Canban_Logo.1}\" alt=\"\"></p>"
+          },
+          "componentName": "forceCommunity:richTextInline",
+          "id": "47273481-7247-419a-91d8-98094c3b1005",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
+      "id": "9ddd6e79-6384-456b-8462-d142be7d8d52",
+      "regionName": "header",
+      "type": "region"
+    },
+    {
+      "components": [
+        {
+          "componentAttributes": {
+            "richTextValue": "Replace this text with content of your own."
+          },
+          "componentName": "forceCommunity:richTextInline",
+          "id": "aeb33f98-31e9-4dd9-a86a-45c025a986b3",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
+      "id": "2191cae5-4e44-429c-86b4-448e128d5f1e",
+      "regionName": "content",
+      "type": "region"
+    },
+    {
+      "id": "6b643221-75fc-4bf9-a1b0-8c77fdbc0572",
+      "regionName": "footer",
+      "type": "region"
+    },
+    {
+      "components": [
+        {
+          "componentAttributes": {
+            "customHeadTags": "",
+            "description": "",
+            "title": "Canban"
+          },
+          "componentName": "forceCommunity:seoAssistant",
+          "id": "7f021795-2b1e-4730-a3eb-160651175499",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
+      "id": "efc88a4a-0fd0-4a14-a8b2-8451a71d77e9",
+      "regionName": "sfdcHiddenRegion",
+      "type": "region"
+    }
+  ],
+  "themeLayoutType": "Inner",
+  "type": "view",
+  "viewType": "custom-canban"
+}

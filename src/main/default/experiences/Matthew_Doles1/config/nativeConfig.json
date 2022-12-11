@@ -1,0 +1,27 @@
+{
+  "id": "d414b2b4-5379-414e-a4d0-6340511049a2",
+  "mobilePublisherAppUpdateConfig": {
+    "forceAppUpdate": false,
+    "minVersion": {
+      "ios": {
+        "version": "10.0"
+      },
+      "android": {
+        "version": "10.1"
+      }
+    }
+  },
+  "nativeMobileNavConfig": {
+    "showBackButton": true,
+    "showHamburgerMenuWithBackButton": false
+  },
+  "nativeTabMenu": {
+    "branding": {
+      "iconTintColorUnselected": "#C9C5C5",
+      "barTintColor": "#FFFFFF"
+    },
+    "menuItems": []
+  },
+  "showHamburgerMenu": true,
+  "type": "nativeConfig"
+}

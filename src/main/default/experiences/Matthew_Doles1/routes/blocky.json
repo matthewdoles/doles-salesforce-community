@@ -1,0 +1,11 @@
+{
+  "activeViewId": "ba08b208-750e-4b1b-a43b-bb13ffd931f9",
+  "appPageId": "bc7511ba-0fce-40eb-b7e3-1ebb0d62c409",
+  "configurationTags": [],
+  "id": "3a67aae0-d180-4936-a0bc-6ef269311ae8",
+  "label": "Blocky",
+  "pageAccess": "UseParent",
+  "routeType": "custom-blocky",
+  "type": "route",
+  "urlPrefix": "blocky"
+}

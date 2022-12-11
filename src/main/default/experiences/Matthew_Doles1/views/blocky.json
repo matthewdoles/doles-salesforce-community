@@ -1,0 +1,68 @@
+{
+  "appPageId": "bc7511ba-0fce-40eb-b7e3-1ebb0d62c409",
+  "componentName": "siteforce:sldsOneColLayout",
+  "id": "ba08b208-750e-4b1b-a43b-bb13ffd931f9",
+  "label": "Blocky",
+  "regions": [
+    {
+      "components": [
+        {
+          "componentAttributes": {
+            "richTextValue": "<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" src=\"{!contentAsset.imageedit_1_8617561999.1}\" alt=\"\" style=\"width: 149.562px; height: 149.562px;\"></p>"
+          },
+          "componentName": "forceCommunity:richTextInline",
+          "id": "1878001a-946a-4eb8-b64d-8042c5fbad61",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
+      "id": "8a047037-1826-4885-bf59-dc7f40a47a58",
+      "regionName": "header",
+      "type": "region"
+    },
+    {
+      "components": [
+        {
+          "componentAttributes": {
+            "richTextValue": "Replace this text with content of your own."
+          },
+          "componentName": "forceCommunity:richTextInline",
+          "id": "a4f5353f-f529-4603-acc9-37629331f069",
+          "renderPriority": "NEUTRAL",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
+      "id": "c2259c5c-fe6b-40d3-b0fe-3f795e419f9a",
+      "regionName": "content",
+      "type": "region"
+    },
+    {
+      "id": "65658870-8b97-4b20-b747-335346bc1085",
+      "regionName": "footer",
+      "type": "region"
+    },
+    {
+      "components": [
+        {
+          "componentAttributes": {
+            "customHeadTags": "",
+            "description": "",
+            "title": "Blocky"
+          },
+          "componentName": "forceCommunity:seoAssistant",
+          "id": "bbcc5ef2-2686-4347-9605-eff8edc0211d",
+          "renditionMap": {},
+          "type": "component"
+        }
+      ],
+      "id": "e5f9c5dc-ac2e-4e1b-b280-6b84e94e00f0",
+      "regionName": "sfdcHiddenRegion",
+      "type": "region"
+    }
+  ],
+  "themeLayoutType": "Inner",
+  "type": "view",
+  "viewType": "custom-blocky"
+}
