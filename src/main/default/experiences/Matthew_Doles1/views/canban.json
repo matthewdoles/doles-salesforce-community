@@ -8,7 +8,7 @@
       "components": [
         {
           "componentAttributes": {
-            "richTextValue": "<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" src=\"{!contentAsset.Canban_Logo.1}\" alt=\"\"></p>"
+            "richTextValue": "<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.Canban_Logo.1}\"></p>\n<p style=\"text-align: center;\"><br></p>\n<p style=\"text-align: center;\"><strong style=\"font-size: 20px;\">Canban</strong></p>\n<p style=\"text-align: center;\"><strong style=\"color: rgb(0, 102, 204); font-size: 16px;\">https://canban.vercel.app/</strong></p>"
           },
           "componentName": "forceCommunity:richTextInline",
           "id": "47273481-7247-419a-91d8-98094c3b1005",
@@ -25,10 +25,70 @@
       "components": [
         {
           "componentAttributes": {
-            "richTextValue": "Replace this text with content of your own."
+            "tabsetConfig": {
+              "UUID": "3cfc6e62-1889-464d-97e7-3757c1b65869",
+              "activeTab": "",
+              "tabs": [
+                {
+                  "UUID": "2a2a388d-9984-48f5-b1a9-5e37edfc5d2c",
+                  "allowGuestUser": true,
+                  "locked": false,
+                  "seedComponents": [],
+                  "tabKey": "1",
+                  "tabName": "Details"
+                },
+                {
+                  "UUID": "608374b5-8f4b-4645-b252-a764fc41e67d",
+                  "allowGuestUser": true,
+                  "locked": false,
+                  "seedComponents": [],
+                  "tabKey": "2",
+                  "tabName": "Preview"
+                }
+              ],
+              "useOverflowMenu": false
+            }
           },
-          "componentName": "forceCommunity:richTextInline",
-          "id": "aeb33f98-31e9-4dd9-a86a-45c025a986b3",
+          "componentName": "forceCommunity:tabset",
+          "id": "3cfc6e62-1889-464d-97e7-3757c1b65869",
+          "regions": [
+            {
+              "components": [
+                {
+                  "componentAttributes": {
+                    "richTextValue": "<p><br></p><p><span style=\"font-size: 16px; color: rgb(0, 0, 0);\">After completing Blocky, I wanted to continue to improve my React Typesctipt skills. Having used the react-draggable npm package in that project, the simple idea to do a Todo app came to mind where you could drag and drop your todos in a kanban view. This also proved to be a good opportunity to work with Supabase, which is a cool Firebase alternative with a super friendly hobbyist/free tier.</span></p><p><br></p><p><span style=\"color: rgb(0, 0, 0); font-size: 16px;\">Upong visiting the home page, a first time/unauthenticated user will be presented with options to login using a 3rd party provider: Google, Github, or Facebook. Supabase makes it very easy to authenticate and manage users using 3rd party providers without needing to even put a login form on your site. While you can go with a combination of any number of login options, I choose to keep it simple. Unauthenticated users will also notice on this screen that there is an option to view a demo below the login providers. Realistically, I will be the only that ever uses this application and anyone that wants to just view this project without wanting to authenticate can do so. There is no official privacy policy, but regardless I will not be monitoring data from any other users should they choose to use this website. Like much of the internet, practice your own personal caution.</span></p><p><br></p><p><span style=\"color: rgb(0, 0, 0); font-size: 16px;\">However when a user authenticates, they will see a dashboard which lists any current boards they have created. Users that login for the very first time will even have a board created for them which serves as a guide on how to operate the application - although I've tried to keep the functionality as intuitive as possible. From the dashboard the user can create any number of boards which can have up to 5 stages. Clicking the eye icon in the&nbsp;bottom right of a board card takes you to the details page of that board. Here you will see your board stages in a kanban view where you can create new tasks, view task details by clicking the task description, drag and drop tasks to new stages by grabbing it by the header, and archive tasks keep your main board clutter free. All in and all it is about what you expect from a standard Todo app, but spiced with a little extra functionality and authentication to actually maintain data in a database.</span></p><p><br></p><p><span style=\"color: rgb(0, 0, 0); font-size: 16px;\">Repository: </span><strong style=\"color: rgb(0, 102, 204); font-size: 16px; background-color: rgb(255, 255, 255);\">https://github.com/matthewdoles/canban</strong></p>"
+                  },
+                  "componentName": "forceCommunity:richTextInline",
+                  "id": "aeb33f98-31e9-4dd9-a86a-45c025a986b3",
+                  "renditionMap": {},
+                  "type": "component"
+                }
+              ],
+              "id": "2a2a388d-9984-48f5-b1a9-5e37edfc5d2c",
+              "regionLabel": "Details",
+              "regionName": "1",
+              "renditionMap": {},
+              "type": "region"
+            },
+            {
+              "components": [
+                {
+                  "componentAttributes": {
+                    "richTextValue": "<p style=\"text-align: center;\"><br></p>\n<p style=\"text-align: center;\"><strong style=\"font-size: 20px;\">Dashboard</strong></p>\n<p style=\"text-align: center;\"><br></p>\n<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" src=\"{!contentAsset.CanbanDashboard.1}\" alt=\"\"></p>\n<p style=\"text-align: center;\"><br></p>\n<p style=\"text-align: center;\"><strong style=\"font-size: 20px;\">Board Details</strong></p>\n<p style=\"text-align: center;\"><br></p>\n<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" src=\"{!contentAsset.CanbanBoardDetails.1}\" alt=\"\"></p>\n<p style=\"text-align: center;\"><br></p>\n<p style=\"text-align: center;\"><strong style=\"font-size: 20px;\">Login</strong></p>\n<p style=\"text-align: center;\"><br></p>\n<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" src=\"{!contentAsset.CanbanLogin.1}\" alt=\"\"></p>\n<p style=\"text-align: center;\"><br></p>"
+                  },
+                  "componentName": "forceCommunity:richTextInline",
+                  "id": "491c8961-7b05-467b-a299-df51e273cb83",
+                  "renditionMap": {},
+                  "type": "component"
+                }
+              ],
+              "id": "608374b5-8f4b-4645-b252-a764fc41e67d",
+              "regionLabel": "Preview",
+              "regionName": "2",
+              "renditionMap": {},
+              "type": "region"
+            }
+          ],
           "renderPriority": "NEUTRAL",
           "renditionMap": {},
           "type": "component"
