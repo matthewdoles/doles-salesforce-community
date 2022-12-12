@@ -24,6 +24,7 @@
     <referrerPolicyOriginWhenCrossOrigin
   >true</referrerPolicyOriginWhenCrossOrigin>
     <selfRegPage>CommunitiesSelfReg</selfRegPage>
+    <serverIsDown>SNA_Matthew_Doles1_sf_default_cdn_OZJXi</serverIsDown>
     <siteAdmin>dolesmatthew@salesforce.com</siteAdmin>
     <siteGuestRecordDefaultOwner
   >dolesmatthew@salesforce.com</siteGuestRecordDefaultOwner>

@@ -39,7 +39,7 @@
             <tileImage>imageedit_1_8617561999</tileImage>
         </menuItemBranding>
         <position>4</position>
-        <publiclyAvailable>false</publiclyAvailable>
+        <publiclyAvailable>true</publiclyAvailable>
         <target>/blocky</target>
         <type>InternalLink</type>
     </navigationMenuItem>

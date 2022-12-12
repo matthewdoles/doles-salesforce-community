@@ -31,7 +31,7 @@
               "tabs": [
                 {
                   "UUID": "676c1536-9e0a-4123-b506-9a3ee6637ed4",
-                  "allowGuestUser": false,
+                  "allowGuestUser": true,
                   "locked": false,
                   "seedComponents": [],
                   "tabKey": "1",
@@ -39,7 +39,7 @@
                 },
                 {
                   "UUID": "c44a6fe0-b311-4b9a-8831-fef86f3e0225",
-                  "allowGuestUser": false,
+                  "allowGuestUser": true,
                   "locked": false,
                   "seedComponents": [],
                   "tabKey": "2",
